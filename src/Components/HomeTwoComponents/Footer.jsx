@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import logo from '../../assets/images/logo/MMH logo 1.png';
 import {
   fbIcon,
   footerLogo2,
@@ -37,7 +38,7 @@ const Footer = () => {
             <div className="single-footer col-span-12 lg:col-span-6 xl:col-span-3">
               <div className="lg:max-w-[270px]">
                 <a href="#" className="mb-10 block">
-                  <img src={footerLogo2} alt="" />
+                  <img src={logo} alt="" />
                 </a>
                 <p>
                   Lorem ipsum amet, consectetur adipiscing elit. Suspendis
@@ -160,7 +161,7 @@ const Footer = () => {
         </div>
 
         <div className="container border-t border-[#E9D4D0] py-8 text-center text-base">
-          &copy; Copyright 2022 | Edumim Template | All Rights Reserved
+          &copy; Copyright 2022 | mmh | All Rights Reserved
         </div>
       </div>
     </footer>
