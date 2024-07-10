@@ -11,3 +11,12 @@ git checkout -b customizing_landing_page
 git add .
 git commit -m "message"
 git push origin
+
+git checkout main
+git pull origin main
+
+
+
+branch create
+main
+git checkout -b"page name"

@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 // import logo from "../assets/images/logo/logo.svg";
-import logo from '../assets/images/logo/MMH logo 1.png';
+import logo from '../assets/images/logo/MMH_logo_1.png';
 import MobileMenu from "./MobileMenu";
 
 const Header = () => {
