@@ -21,7 +21,7 @@ const HomeTwo = () => {
       <About />
       <Courses />
       <Counter />
-      <Video />
+      {/* <Video /> */}
       <WhyChoose />
       <Achivement />
       <BlogArticle />

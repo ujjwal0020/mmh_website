@@ -6,7 +6,8 @@ import wt from "../../assets/images/social/wt.svg";
 import wi from "../../assets/images/social/w-i.svg";
 import wins from "../../assets/images/social/w-ins.svg";
 import search from "../../assets/images/svg/search.svg";
-import logo from "../../assets/images/logo/logo.svg";
+// import logo from "../../assets/images/logo/logo.svg";
+import logo from '../../assets/images/logo/MMH logo 1.png';
 import man2 from "../../assets/images/banner/man2.png";
 import { Link } from "react-router-dom";
 import MobileMenu from "../MobileMenu";
@@ -39,10 +40,10 @@ const HomeTwoHeader = () => {
           <div className=" container">
             <div className="grid lg:grid-cols-2  grid-cols-1 gap-5 ">
               <ul className=" flex  divide-x divide-white divide-opacity-25 text-base lg:justify-start justify-center">
-                <li className="mr-4">12893 Green Valley Street, USA 83682</li>
+                <li className="mr-4">12893 Green Valley Street, Noida (INDIA)</li>
                 <li className="pl-4">
                   <a href="mailto:contactinfo@gmail.com">
-                    contactinfo@gmail.com
+                    info@makemoneyfromhome.com
                   </a>
                 </li>
               </ul>
@@ -229,7 +230,7 @@ const HomeTwoHeader = () => {
                       href="#"
                       className="btn bg-black text-white py-[15px] px-8"
                     >
-                      Start Free Trial
+                      Get A Quote!
                     </a>
                   </div>
                 </div>
@@ -258,8 +259,7 @@ const HomeTwoHeader = () => {
       <div className="container relative">
         <div className="xl:max-w-[570px] xl:pt-[129px] lg:py-28 md:py-20 py-14  lg:space-y-10 space-y-6">
           <div className=" lg:text-[77px] lg:leading-[106.4px]  md:text-6xl md:leading-[72px] text-black font-bold text-5xl leading-[62px]">
-            Better <span className="text-primary">Learning Future</span> Starts
-            With Edumim
+            Join Our <span className="text-primary">Dynamic Team</span> and Excel in Tele-calling with MMH 
           </div>
           <div className=" plain-text text-gray leading-[30px] border-l-2 border-primary pl-4">
             It is long established fact that reader distracted by the readable

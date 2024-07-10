@@ -25,41 +25,10 @@ function App() {
       <div className="font-gilroy font-medium text-gray text-lg leading-[27px]">
         <Routes>
           <Route
-            path="/"
-            element={<Navigate to={"/react-templates/edumim"} />}
-          />
-          <Route path="/react-templates/edumim" element={<HomeOne />} />
-          <Route
             path="/react-templates/edumim/home-two"
             element={<HomeTwo />}
           />
-          <Route
-            path="/react-templates/edumim/home-three"
-            element={<HomeThree />}
-          />
-          <Route path="/react-templates/edumim/about" element={<AboutOne />} />
-          <Route
-            path="/react-templates/edumim/about-two"
-            element={<AboutTwo />}
-          />
-          <Route
-            path="/react-templates/edumim/instructor"
-            element={<InstructorOne />}
-          />
-          <Route
-            path="/react-templates/edumim/instructor-two"
-            element={<InstructorTwo />}
-          />
-          <Route
-            path="/react-templates/edumim/instructor-details"
-            element={<InstructorDetails />}
-          />
-          <Route path="/react-templates/edumim/event" element={<Event />} />
-          <Route
-            path="/react-templates/edumim/event-single"
-            element={<EventSingle />}
-          />
-          <Route path="/react-templates/edumim/error" element={<ErrorPage />} />
+          <Route path="/react-templates/edumim/about" element={<AboutOne />} />>
           <Route path="/react-templates/edumim/courses" element={<Courses />} />
           <Route
             path="/react-templates/edumim/courses-sidebar"

@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo/logo.svg";
+// import logo from "../assets/images/logo/logo.svg";
+import logo from '../assets/images/logo/MMH logo 1.png';
 import MobileMenu from "./MobileMenu";
 
 const Header = () => {
@@ -143,7 +144,7 @@ const Header = () => {
                 <div className="flex-none flex space-x-[18px]">
                   <div className=" hidden lg:block">
                     <a href="#" className="btn btn-primary py-[15px] px-8">
-                      Start Free Trial
+                      Get A Quote!
                     </a>
                   </div>
                   <div className=" block   lg:hidden">

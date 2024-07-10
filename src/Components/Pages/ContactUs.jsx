@@ -19,8 +19,9 @@ const ContactUs = () => {
                 Get In Touch <span class="shape-bg">Today</span>
               </h4>
               <div>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered.
+                {/* There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered. */}
+                "Our Aim: Your Growth Through Communication"
               </div>
               <ul class=" list-item space-y-6 pt-8">
                 <li class="flex">
@@ -31,7 +32,7 @@ const ContactUs = () => {
                   </div>
                   <div class="flex-1">
                     <h4 class=" lg:text-xl text-lg mb-1">Email-Us :</h4>
-                    <div>Contactyourmail@gmail.com</div>
+                    <div>info@makemoneyfromhome.com</div>
                   </div>
                 </li>
                 <li class="flex">

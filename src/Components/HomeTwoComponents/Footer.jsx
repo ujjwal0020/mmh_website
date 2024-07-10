@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import logo from '../../assets/images/logo/MMH logo 1.png';
 import {
   fbIcon,
   footerLogo2,
@@ -21,12 +22,12 @@ const Footer = () => {
         <div className="items-center space-x-4 space-y-5 text-center lg:flex lg:space-y-0 lg:text-left">
           <div className="flex-1">
             <div className="max-w-[590px] text-3xl font-bold text-white md:text-3xl lg:text-[44px] lg:leading-[61px]">
-              Education Is About Creating Leaders For Tomorrow
+            Transform Your Tele Calling Skills into Carrier Success
             </div>
           </div>
           <div className="flex-none">
             <button className="btn bg-white font-bold text-black">
-              Register Today
+              Join Today
             </button>
           </div>
         </div>
@@ -37,11 +38,11 @@ const Footer = () => {
             <div className="single-footer col-span-12 lg:col-span-6 xl:col-span-3">
               <div className="lg:max-w-[270px]">
                 <a href="#" className="mb-10 block">
-                  <img src={footerLogo2} alt="" />
+                  <img src={logo} alt="" />
                 </a>
                 <p>
-                  Lorem ipsum amet, consectetur adipiscing elit. Suspendis
-                  varius enim eros elementum tristique. Duis cursus.
+                "We've Built Our Business Of Serving Your Needs On Some Core Principles. 
+                This We Believe Lets Us Serve Your Success And That Ultimately Is Our Goal."
                 </p>
                 <ul className="flex space-x-4 pt-8">
                   <li>
@@ -160,7 +161,7 @@ const Footer = () => {
         </div>
 
         <div className="container border-t border-[#E9D4D0] py-8 text-center text-base">
-          &copy; Copyright 2022 | Edumim Template | All Rights Reserved
+          &copy; Copyright 2024 | info@makemoneyonline.com | All Rights Reserved
         </div>
       </div>
     </footer>
