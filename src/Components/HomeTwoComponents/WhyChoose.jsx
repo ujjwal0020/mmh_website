@@ -1,4 +1,5 @@
 import React from "react";
+import whyimg from '../../assets/images/whychooseMMH.jpg';
 import { about4, miniHeart, miniTarget } from "../../constant/images";
 
 const WhyChoose = () => {
@@ -7,16 +8,17 @@ const WhyChoose = () => {
       <div className="container">
         <div className="lg:grid grid-cols-12 lg:gap-10  space-y-6 lg:space-y-0">
           <div className="xl:col-span-5 lg:col-span-6 col-span-12">
-            <div className="mini-title">Why Choose Edumim</div>
+            <div className="mini-title">Why Choose MMH</div>
             <h4 className="column-title ">
-              Grow Your Skill, Define Your {' '}
-              <span className="shape-bg pb-4">Bright Future</span>
+            {/* Transform Your <br/> Tele Calling Skills into  */}
+            Driven by Principles, Focused on Your 
+              <span className="shape-bg pb-4">Carrier Success</span>
             </h4>
             <div className=" mb-8">
-              Learn at your own pace, move between multiple courses, or switch
-              to a different course. Earn a certificate for every learning
-              program that you complete at no additional cost multiple courses
-              this year.
+            {/* "Choose MMH, where tele-calling isn't just a job—it's your gateway to meaningful work,
+             professional growth, and unparalleled support in reaching your career aspirations." */}
+             "We've built our business of serving your needs on some core principles.
+             This we believe lets us serve your success and that ultimately is our goal."
             </div>
             <div>
               <div className="grid lg:grid-cols-2 grid-cols-1 gap-[30px] md:block">
@@ -25,7 +27,7 @@ const WhyChoose = () => {
                     <img src={miniTarget} alt="" />
                   </div>
                   <div className=" font-semibold leading-[27px] text-black mt-3">
-                    Learn At Your Own Multiple Courses
+                    Quality Of Work
                   </div>
                 </div>
                 <div className="bg-white shadow-box7 p-6 rounded">
@@ -33,15 +35,15 @@ const WhyChoose = () => {
                     <img src={miniHeart} alt="" />
                   </div>
                   <div className=" font-semibold leading-[27px] text-black mt-3">
-                    We Provide Study Materials
+                  Available 24x7
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="xl:col-span-7 lg:col-span-6 col-span-12 ">
+          <div className="xl:col-span-8 lg:col-span-6 col-span-12 ">
             <img
-              src={about4}
+              src={whyimg}
               alt=""
               className=" block w-full object-contain "
             />

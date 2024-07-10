@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState();
-  const [webAdress, setWebAdress] = useState();
+  const [mobileNumber, setMobileNumber] = useState();
   const [message, setMessage] = useState();
   const [loading, setLoading] = useState(false);
   const naviget = useNavigate();
@@ -16,7 +16,7 @@ const ContactForm = () => {
     const templateParams = {
       name: name,
       email: email,
-      webAdress: webAdress,
+      mobileNumber: mobileNumber,
       message: message,
     };
     console.log(templateParams);
@@ -33,6 +33,7 @@ const ContactForm = () => {
           console.log("SUCCESS!", response.status, response.text);
           setEmail("");
           setName("");
+          setMobileNumber("")
           setMessage("");
           naviget("/react-templates/edumim/thanks");
           setLoading(false);
@@ -68,11 +69,11 @@ const ContactForm = () => {
       </div>
       <div className="md:col-span-2 col-span-1">
         <input
-          type="url"
+          type="tel"
           className=" from-control"
-          placeholder="Website Address"
-          value={webAdress}
-          onChange={(e) => setWebAdress(e.target.value)}
+          placeholder="Mobile Number"
+          value={mobileNumber}
+          onChange={(e) => setMobileNumber(e.target.value)}
         />
       </div>
       <div className="md:col-span-2 col-span-1">

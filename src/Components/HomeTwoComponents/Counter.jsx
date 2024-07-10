@@ -22,7 +22,7 @@ const Counter = () => {
                 className=" absolute left-1/2 -translate-x-1/2 -top-10"
               />
               <h4 className=" text-[44px] leading-[66px] text-black font-bold mb-1 ">
-                <span className="counter">{item.num}</span> +
+                <span className="counter">{item.num}</span> 
               </h4>
               <p>{item.sector}</p>
             </div>

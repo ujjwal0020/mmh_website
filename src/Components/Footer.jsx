@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import footerLogo from "../assets/images/logo/footer-logo.svg";
+import logo from '../assets/images/logo/MMH logo 1.png';
 
 const Footer = () => {
   const updatedDate = new Date().getFullYear();
@@ -11,11 +12,11 @@ const Footer = () => {
           <div className="single-footer">
             <div className="lg:max-w-[270px]">
               <a href="#" className="mb-10 block">
-                <img src={footerLogo} alt="" />
+                <img src={logo} alt="" />
               </a>
               <p>
-                Lorem ipsum amet, consectetur adipiscing elit. Suspendis varius
-                enim eros elementum tristique. Duis cursus.
+              "We've Built Our Business Of Serving Your Needs On Some Core Principles. 
+              This We Believe Lets Us Serve Your Success And That Ultimately Is Our Goal."
               </p>
               <ul className="flex space-x-4 pt-8">
                 <li>
@@ -111,7 +112,7 @@ const Footer = () => {
             <h4 className="mb-8 text-2xl font-bold text-white">Newsletter</h4>
             <div className="mb-8">
               Join over <span className="text-primary underline">68,000</span>{" "}
-              people getting our emails Lorem ipsum dolor sit amet consectet
+              people getting our regarding Tele Calling
             </div>
             <div className="mb-4 flex items-center rounded-md bg-white py-[10px] pr-[10px] pl-6 shadow-e1">
               <div className="flex-none">
@@ -134,7 +135,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="container border-t border-white border-opacity-[0.1] py-8 text-center text-base">
-        &copy; Copyright {updatedDate} | Edumim Template | All Rights Reserved
+        &copy; Copyright {updatedDate} | info@makemoneyfromhome.com | All Rights Reserved
       </div>
     </footer>
   );
