@@ -19,11 +19,11 @@ const HomeTwo = () => {
       <HomeTwoHeader />
       <Categories />
       <About />
-      <Courses />
+      {/* <Courses /> */}
       <Counter />
-      {/* <Video /> */}
+      <Video />
       <WhyChoose />
-      <Achivement />
+      {/* <Achivement /> */}
       <BlogArticle />
       <Footer />
     </section>

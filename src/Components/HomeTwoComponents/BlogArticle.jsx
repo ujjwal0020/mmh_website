@@ -31,11 +31,11 @@ const BlogArticle = () => {
                 </div>
               </div>
               <div className="course-content flex-1">
-                <div className="mb-4">
+                {/* <div className="mb-4">
                   <span className="inline-block text-base text-secondary bg-[#E3F9F6] font-medium rounded px-[10px] py-1">
                     Learning
                   </span>
-                </div>
+                </div> */}
                 <h4 className=" lg:text-2xl lg:leading-[36px] text-1xl mb-4 font-bold">
                   <Link
                     to={'/react-templates/edumim/single-blog'}
@@ -44,7 +44,7 @@ const BlogArticle = () => {
                     {item.title}
                   </Link>
                 </h4>
-                <div className="flex   space-x-6">
+                {/* <div className="flex   space-x-6">
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={calender2} alt="" />
                     <span>21 Feb, 22</span>
@@ -53,7 +53,7 @@ const BlogArticle = () => {
                     <img src={clock2} alt="" />
                     <span>4k Lesson</span>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}

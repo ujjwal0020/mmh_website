@@ -77,7 +77,7 @@ const Footer = () => {
                     </h4>
                     <ul className="list-item space-y-5">
                       <li>
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                       </li>
                       <li>
                         <a href="#">About Us</a>

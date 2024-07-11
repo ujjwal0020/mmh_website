@@ -88,7 +88,7 @@ const HomeTwoHeader = () => {
               <div className="flex items-center flex-1">
                 <div className="flex-1 main-menu relative mr-[74px]">
                   <ul className="menu-active-classNamees">
-                    <li className={`menu-item-has-children `}>
+                    {/* <li className={`menu-item-has-children `}>
                       <a href="#">Home</a>
                       <ul className="sub-menu">
                         <li>
@@ -105,8 +105,8 @@ const HomeTwoHeader = () => {
                           </Link>
                         </li>
                       </ul>
-                    </li>
-                    <li className="menu-item-has-children">
+                    </li> */}
+                    {/* <li className="menu-item-has-children">
                       <a href="#">Pages</a>
                       <ul className="sub-menu">
                         <li>
@@ -150,8 +150,8 @@ const HomeTwoHeader = () => {
                           <Link to={"/react-templates/edumim/error"}>404</Link>
                         </li>
                       </ul>
-                    </li>
-                    <li className="menu-item-has-children">
+                    </li> */}
+                    {/* <li className="menu-item-has-children">
                       <a href="#">Courses</a>
                       <ul className="sub-menu">
                         <li>
@@ -170,8 +170,8 @@ const HomeTwoHeader = () => {
                           </Link>
                         </li>
                       </ul>
-                    </li>
-                    <li className="menu-item-has-children">
+                    </li> */}
+                    {/* <li className="menu-item-has-children">
                       <a href="#">Blog</a>
                       <ul className="sub-menu">
                         <li>
@@ -185,7 +185,27 @@ const HomeTwoHeader = () => {
                           </Link>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
+                    <li>
+                          <Link to={"/react-templates/edumim/home-two"}>
+                            Home
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to={"/react-templates/edumim/about"}>
+                            About Us
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to={"/react-templates/edumim/courses"}>
+                            Courses
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to={"/react-templates/edumim/blog-standard"}>
+                            Blog
+                          </Link>
+                        </li>
                     <li>
                       <Link to={"/react-templates/edumim/contacts"}>
                         Contacts

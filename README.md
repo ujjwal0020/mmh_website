@@ -12,11 +12,11 @@ git add .
 git commit -m "message"
 git push origin
 
-git checkout main
+git checkout main ------------------
 git pull origin main
 
 
 
-branch create
+branch create  -------------
 main
 git checkout -b"page name"

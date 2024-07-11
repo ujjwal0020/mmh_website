@@ -29,6 +29,10 @@ import {
   team7,
   team8,
 } from "./images";
+import mt from '../assets/images/myths.png';
+import mt1 from '../assets/images/tech.jpg';
+import mt2 from '../assets/images/beprep.png';
+import mt3 from '../assets/images/hire.jpeg';
 
 export const achivementCounter = [
   {
@@ -55,20 +59,20 @@ export const achivementCounter = [
 
 export const blogArticleData = [
   {
-    title: "Fashion and Luxury Fashion in a Changing",
-    img: c1,
+    title: "MYTHS ABOUT VIRTUAL ASSISTANTS AND A GROUND REALITY",
+    img: mt,
   },
   {
-    title: "Creative Writing Through Storytelling",
-    img: c2,
+    title: "Indian Virtual Assistant’s not so virtual after all",
+    img: mt1,
   },
   {
-    title: "Product Manager Learn The Skills & Job",
-    img: c3,
+    title: "Benefits Of Hiring A Task Officer!",
+    img: mt3,
   },
   {
-    title: "The Power of Podcast for Storytelling",
-    img: c4,
+    title: "Be prepared to face the never ending stream of Business Puzzle",
+    img: mt2,
   },
 ];
 

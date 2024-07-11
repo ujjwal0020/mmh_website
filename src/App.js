@@ -30,22 +30,22 @@ function App() {
           />
           <Route path="/react-templates/edumim/about" element={<AboutOne />} />>
           <Route path="/react-templates/edumim/courses" element={<Courses />} />
-          <Route
+          {/* <Route
             path="/react-templates/edumim/courses-sidebar"
             element={<CourseSideBar />}
-          />
-          <Route
+          /> */}
+          {/* <Route
             path="/react-templates/edumim/single-course"
             element={<SingleCourse />}
-          />
+          /> */}
           <Route
             path="/react-templates/edumim/blog-standard"
             element={<BLogStandard />}
           />
-          <Route
+          {/* <Route
             path="/react-templates/edumim/single-blog"
             element={<SingleBlog />}
-          />
+          /> */}
           <Route
             path="/react-templates/edumim/contacts"
             element={<ContactUs />}
