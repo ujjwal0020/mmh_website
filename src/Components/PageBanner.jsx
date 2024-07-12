@@ -9,7 +9,7 @@ const PageBanner = ({ pageName, pageTitle, num, title }) => {
     <div className="breadcrumbs section-padding bg-[url('../images/all-img/bred.png')] bg-cover bg-center bg-no-repeat">
       <div className="container text-center">
         <h2>{title}</h2>
-        <nav>
+        {/* <nav>
           <ol className="flex items-center justify-center space-x-3">
             <li className="breadcrumb-item">
               <Link to={"/react-templates/edumim/home"}> Pages</Link>
@@ -19,7 +19,7 @@ const PageBanner = ({ pageName, pageTitle, num, title }) => {
               {pageName} {pageTitle} {num}
             </li>
           </ol>
-        </nav>
+        </nav> */}
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import FilteredCourse from "../FilteredCourse";
-import Footer from "../Footer";
+// import Footer from "../Footer";
+import Footer from "../HomeTwoComponents/Footer";
 import Header from "../Header";
 import PageBanner from "../PageBanner";
 

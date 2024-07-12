@@ -14,6 +14,12 @@ import {
   insIcon5,
   insIcon6,
 } from "../../constant/images";
+import about3 from "../../assets/images/landing_page6.jpg";
+import about4 from "../../assets/images/landing_page1.webp";
+import about5 from "../../assets/images/landing_page2.avif";
+import about6 from "../../assets/images/tech.jpg";
+import about7 from '../../assets/images/beprep.png';
+import about8 from '../../assets/images/landing_page3.webp';
 
 const Footer = () => {
   return (
@@ -130,12 +136,12 @@ const Footer = () => {
               </h4>
               <div className="grid grid-cols-3 gap-4">
                 {[
-                  insIcon1,
-                  insIcon2,
-                  insIcon3,
-                  insIcon4,
-                  insIcon5,
-                  insIcon6,
+                  about3,
+                  about4,
+                  about5,
+                  about6,
+                  about7,
+                  about8,
                 ].map((item, index) => (
                   <div key={index}>
                     <a

@@ -4,8 +4,8 @@ import testiLeft from "../assets/images/all-img/testi-left.png";
 
 const Testimonials = () => {
   return (
-    <div className=" section-padding bg-[url('../images/all-img/section-bg-16.png')] bg-cover  bg-no-repeat lg:mt-[136px]">
-      <div className="container lg:-mt-[250px] xl:pb-[136px] lg:pb-20 pb-10">
+    <div className=" section-padding bg-[url('../images/all-img/section-bg-16.png')] bg-cover  bg-no-repeat lg:mt-[134px]">
+      {/* <div className="container lg:-mt-[250px] xl:pb-[136px] lg:pb-20 pb-10">
         <div
           className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px] bg-white shadow-box14 rounded-md
                 divide-x-2 divide-[#E4EEED] py-20"
@@ -46,7 +46,7 @@ const Testimonials = () => {
             </span>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="container">
         <div className="grid grid-cols-12 lg:gap-10 gap-6 ">
           <div className="xl:col-span-7 lg:col-span-6 col-span-12">
@@ -55,15 +55,13 @@ const Testimonials = () => {
           <div className="xl:col-span-5 lg:col-span-6 col-span-12 flex flex-col justify-center ">
             <div className="mini-title">Testimonial</div>
             <h4 className="column-title ">
-              What Says Our
-              <span className="shape-bg">Students</span>
-              About Us
+            Here's what <span className="shape-bg"> Peoples</span>
+             have said About Us
             </h4>
             <div>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered. There are many variations of
-              passages of Lorem Ipsum available, but the majority have suffered
-              alteration in some form, by injected humour.
+            Our clients consistently praise MMH for our unwavering commitment to their success.
+             They've seen remarkable transformations in their businesses, attributing their achievements to our principled approach and dedicated support.
+              Join the many who have experienced the MMH difference and thrive.
             </div>
             <div className="mt-12">
               <a href="#" className="btn btn-primary">

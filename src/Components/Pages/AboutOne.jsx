@@ -1,9 +1,10 @@
 import React from "react";
 import Feature from "../Feature";
-import Footer from "../Footer";
+// import Footer from "../Footer";
+import Footer from "../HomeTwoComponents/Footer";
 import Header from "../Header";
 import Accordion from "../HomeThreeComponents/Accordion";
-import Team from "../HomeThreeComponents/Team";
+// import Team from "../HomeThreeComponents/Team";
 import About from "../HomeTwoComponents/About";
 import Counter from "../HomeTwoComponents/Counter";
 import PageBanner from "../PageBanner";
@@ -18,7 +19,7 @@ const AboutOne = () => {
       <Feature />
       <Counter />
       <Testimonials />
-      <Team />
+      {/* <Team /> */}
       <Accordion />
       <Footer />
     </>
