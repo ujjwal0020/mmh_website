@@ -3,16 +3,10 @@ import React from "react";
 import logo from '../../assets/images/logo/MMH_logo_1.png';
 import {
   fbIcon,
-  footerLogo2,
   insIcon,
   pnIcon,
   twIcon,
-  insIcon1,
-  insIcon2,
-  insIcon3,
-  insIcon4,
-  insIcon5,
-  insIcon6,
+
 } from "../../constant/images";
 import about3 from "../../assets/images/landing_page6.jpg";
 import about4 from "../../assets/images/landing_page1.webp";

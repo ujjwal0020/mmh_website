@@ -2,7 +2,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { blogArticleData } from "../../constant/dummyData";
-import { calender2, clock2 } from "../../constant/images";
 
 const BlogArticle = () => {
   return (

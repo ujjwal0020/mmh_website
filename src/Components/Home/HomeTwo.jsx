@@ -1,10 +1,8 @@
 import React, { useEffect } from "react";
 import About from "../HomeTwoComponents/About";
-import Achivement from "../HomeTwoComponents/Achivement";
 import BlogArticle from "../HomeTwoComponents/BlogArticle";
 import Categories from "../HomeTwoComponents/Categories";
 import Counter from "../HomeTwoComponents/Counter";
-import Courses from "../HomeTwoComponents/Courses";
 import Footer from "../HomeTwoComponents/Footer";
 import HomeTwoHeader from "../HomeTwoComponents/HomeTwoHeader";
 import Video from "../HomeTwoComponents/Video";

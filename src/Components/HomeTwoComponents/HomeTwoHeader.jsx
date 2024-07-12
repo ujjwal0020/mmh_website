@@ -43,8 +43,8 @@ const HomeTwoHeader = () => {
               <ul className=" flex  divide-x divide-white divide-opacity-25 text-base lg:justify-start justify-center">
                 <li className="mr-4">12893 Green Valley Street, Noida (INDIA)</li>
                 <li className="pl-4">
-                  <a href="mailto:contactinfo@gmail.com">
-                    info@makemoneyfromhome.com
+                  <a href="mailto:info@makemoneyfromhome.app" className="lowercase">
+                    info@makemoneyfromhome.app
                   </a>
                 </li>
               </ul>
@@ -81,7 +81,7 @@ const HomeTwoHeader = () => {
           <div className="container">
             <div className=" flex items-center justify-between ">
               <Link
-                to={"/react-templates/edumim"}
+                to={"/"}
                 className="brand-logo flex-none lg:mr-10 md:w-auto max-w-[120px]  "
               >
                 <img src={logo} alt="" />
@@ -188,27 +188,27 @@ const HomeTwoHeader = () => {
                       </ul>
                     </li> */}
                     <li>
-                          <Link to={"/react-templates/edumim/home-two"}>
+                          <Link to={"/"}>
                             Home
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/about"}>
+                          <Link to={"/about"}>
                             About Us
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/courses"}>
+                          <Link to={"/courses"}>
                             Courses
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/blog-standard"}>
+                          <Link to={"/blog-standard"}>
                             Blog
                           </Link>
                         </li>
                     <li>
-                      <Link to={"/react-templates/edumim/contacts"}>
+                      <Link to={"/contacts"}>
                         Contacts
                       </Link>
                     </li>

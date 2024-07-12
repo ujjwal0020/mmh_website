@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import footerLogo from "../assets/images/logo/footer-logo.svg";
 import logo from '../assets/images/logo/MMH_logo_1.png';
 
 const Footer = () => {
