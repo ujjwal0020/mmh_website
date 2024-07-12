@@ -40,7 +40,7 @@ const Header = () => {
                       <a href="#">Home</a>
                       <ul className="sub-menu">
                         <li>
-                          <Link to={"/react-templates/edumim"}> Home One</Link>
+                          <Link to={"/"}> Home One</Link>
                         </li>
                         <li>
                           <Link to={"/home-two"}>
