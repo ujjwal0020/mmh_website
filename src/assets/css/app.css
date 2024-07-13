@@ -841,7 +841,7 @@ input:focus {
   line-height: 1.75rem;
   font-weight: 600;
   --tw-text-opacity: 1;
-  color: rgb(48 190 173 / var(--tw-text-opacity));
+  color: rgb(1 95 166 / var(--tw-text-opacity));
 }
 
 .shape-bg {
@@ -850,7 +850,7 @@ input:focus {
   background-repeat: no-repeat;
   padding-bottom: 0.5rem;
   --tw-text-opacity: 1;
-  color: rgba(26,136,185,255);
+  color: rgb(1,95,166);
   background-size: 100%;
   background-position: center bottom;
 }
@@ -1072,7 +1072,7 @@ input:focus {
 
 .btn-primary {
   --tw-bg-opacity: 1;
-  background-color: rgba(26,136,185,255);
+  background-color: rgb(1, 95, 166);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -3482,12 +3482,12 @@ ul ul > li.menu-item-has-children:hover > a:after {
 
 .bg-black {
   --tw-bg-opacity: 1;
-  background-color: rgb(12 19 39 / var(--tw-bg-opacity));
+  background-color: rgb(1 95 166 / var(--tw-bg-opacity));
 }
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgba(26,136,185,255);
+  background-color: rgb(1, 95, 166)
 }
 
 .bg-secondary {
@@ -4267,7 +4267,7 @@ ul ul > li.menu-item-has-children:hover > a:after {
 
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgba(26,136,185,255);
+  color: rgb(1, 95, 166);
 }
 
 .text-secondary {
