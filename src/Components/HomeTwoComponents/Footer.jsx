@@ -83,12 +83,6 @@ const Footer = () => {
                         <a href="#">About Us</a>
                       </li>
                       <li>
-                        <a href="#">Pricing</a>
-                      </li>
-                      <li>
-                        <a href="#">Courses</a>
-                      </li>
-                      <li>
                         <a href="#">Contact Us</a>
                       </li>
                       <li>
@@ -160,8 +154,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="container border-t border-[#E9D4D0] py-8 text-center text-base">
-          &copy; Copyright 2024 | info@makemoneyonline.com | All Rights Reserved
+        <div className="container border-t border-[#E9D4D0] py-8 text-center text-base ">
+          &copy; Copyright 2024 | <span className="lowercase"> info@makemoneyonline.com </span>| All Rights Reserved
         </div>
       </div>
     </footer>

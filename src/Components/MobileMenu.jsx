@@ -9,7 +9,7 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
   const [showHomeMenu, setShowHomeMenu] = useState(false);
   const [showPageMenu, setShowPageMenu] = useState(false);
   const [showBlogMenu, setShowBlogMenu] = useState(false);
-  const [showCourseMenu, setShowCourseMenu] = useState(false);
+ 
   const handleShowHomeMenu = () => {
     setShowHomeMenu(!showHomeMenu);
   };
@@ -19,15 +19,13 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
   const handleShowBlogMenu = () => {
     setShowBlogMenu(!showBlogMenu);
   };
-  const handleShowCourseMenu = () => {
-    setShowCourseMenu(!showCourseMenu);
-  };
+
   return (
     <>
       <div className="openmobile-menu fixed top-0 h-screen pt-10 pb-6 bg-white shadow-box2 w-[320px] overflow-y-auto flex flex-col z-[999] active-mobile-menu">
         <div className="flex justify-between px-6 flex-none">
           <Link
-            to={"//home"}
+            to={"/"}
             className="brand-logo flex-none mr-10 "
           >
             <img src={logo} alt="logo" />
@@ -47,7 +45,10 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
               className={`menu-item-has-children ${showHomeMenu ? "open" : ""}`}
               onClick={handleShowHomeMenu}
             >
-              <a href="#">Home</a>
+              <li>
+                  <Link to={"/"}>Home </Link>
+                </li>
+              {/* <a href="#">Home</a>
               <ul
                 className="sub-menu"
                 style={
@@ -65,13 +66,13 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
                     Home Three
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li
               className={`menu-item-has-children ${showPageMenu ? "open" : ""}`}
               onClick={handleShowPageMenu}
             >
-              <a href="#">Pages</a>
+              {/* <a href="#">Pages</a>
               <ul
                 className="sub-menu"
                 style={
@@ -110,41 +111,17 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
                 <li>
                   <Link to={"//error"}>404</Link>
                 </li>
-              </ul>
+              </ul> */}
+              <li>
+                  <Link to={"/about"}>About Us</Link>
+                </li>
             </li>
-            <li
-              className={`menu-item-has-children ${
-                showCourseMenu ? "open" : ""
-              }`}
-              onClick={handleShowCourseMenu}
-            >
-              <a href="#">Courses</a>
-              <ul
-                className="sub-menu"
-                style={
-                  showCourseMenu ? { display: "block" } : { display: "none" }
-                }
-              >
-                <li>
-                  <Link to={"//courses"}>courses</Link>
-                </li>
-                <li>
-                  <Link to={"//courses-sidebar"}>
-                    courses Sidebar
-                  </Link>
-                </li>
-                <li>
-                  <Link to={"//single-course"}>
-                    Single-course
-                  </Link>
-                </li>
-              </ul>
-            </li>
+            
             <li
               className={`menu-item-has-children ${showBlogMenu ? "open" : ""}`}
               onClick={handleShowBlogMenu}
             >
-              <a href="#">Blog</a>
+              {/* <a href="#">Blog</a>
               <ul
                 className="sub-menu"
                 style={
@@ -161,10 +138,15 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
                     Single Blog
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
+               <li>
+                  <Link to={"/blog-standard"}>
+                    Blog 
+                  </Link>
+                </li>
             </li>
             <li>
-              <Link to={"//contacts"}>Contacts</Link>
+              <Link to={"/contacts"}>Contacts</Link>
             </li>
           </ul>
         </div>

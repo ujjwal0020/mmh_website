@@ -1313,7 +1313,7 @@ input:focus {
 
 .accrodains li.open .accrodain-button {
   --tw-bg-opacity: 1;
-  background-color: rgb(48 190 173 / var(--tw-bg-opacity));
+  background-color: rgb(1 95 166 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -4713,7 +4713,7 @@ ul ul > li.menu-item-has-children:hover > a:after {
 
 .hover\:bg-primary:hover {
   --tw-bg-opacity: 1;
-  background-color: rgba(26,136,185,255);
+  background-color: rgb(1,95,166);
 }
 
 .hover\:bg-white:hover {
@@ -4816,7 +4816,7 @@ ul ul > li.menu-item-has-children:hover > a:after {
 
 .hover\:ring-primary:hover {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(26,136,185,255);
+  --tw-ring-color: rgb(1, 95, 166);
 }
 
 .hover\:grayscale-0:hover {
@@ -5049,7 +5049,7 @@ ul ul > li.menu-item-has-children:hover > a:after {
 
 .group:hover .group-hover\:text-primary {
   --tw-text-opacity: 1;
-  color: rgba(26,136,185,255);
+  color: rgb(1,95,166);
 }
 
 .group:hover .group-hover\:opacity-100 {
