@@ -7,8 +7,9 @@ import wi from "../../assets/images/social/w-i.svg";
 import wins from "../../assets/images/social/w-ins.svg";
 import search from "../../assets/images/svg/search.svg";
 // import logo from "../../assets/images/logo/logo.svg";
-import logo from '../../assets/images/logo/MMH logo 1.png';
-import man2 from "../../assets/images/banner/man2.png";
+import logo from '../../assets/images/logo/MMH_logo_1.png';
+import landing from "../../assets/images/landing_page3.webp";
+// import man2 from "../../assets/images/banner/man2.png";
 import { Link } from "react-router-dom";
 import MobileMenu from "../MobileMenu";
 const HomeTwoHeader = () => {
@@ -42,8 +43,8 @@ const HomeTwoHeader = () => {
               <ul className=" flex  divide-x divide-white divide-opacity-25 text-base lg:justify-start justify-center">
                 <li className="mr-4">12893 Green Valley Street, Noida (INDIA)</li>
                 <li className="pl-4">
-                  <a href="mailto:contactinfo@gmail.com">
-                    info@makemoneyfromhome.com
+                  <a href="mailto:info@makemoneyfromhome.app" className="lowercase">
+                    info@makemoneyfromhome.app
                   </a>
                 </li>
               </ul>
@@ -80,7 +81,7 @@ const HomeTwoHeader = () => {
           <div className="container">
             <div className=" flex items-center justify-between ">
               <Link
-                to={"/react-templates/edumim"}
+                to={"/"}
                 className="brand-logo flex-none lg:mr-10 md:w-auto max-w-[120px]  "
               >
                 <img src={logo} alt="" />
@@ -88,106 +89,126 @@ const HomeTwoHeader = () => {
               <div className="flex items-center flex-1">
                 <div className="flex-1 main-menu relative mr-[74px]">
                   <ul className="menu-active-classNamees">
-                    <li className={`menu-item-has-children `}>
+                    {/* <li className={`menu-item-has-children `}>
                       <a href="#">Home</a>
                       <ul className="sub-menu">
                         <li>
-                          <Link to={"/react-templates/edumim"}> Home One</Link>
+                          <Link to={"/"}> Home One</Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/home-two"}>
+                          <Link to={"//home-two"}>
                             Home Two
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/home-three"}>
+                          <Link to={"//home-three"}>
                             Home Three
                           </Link>
                         </li>
                       </ul>
-                    </li>
-                    <li className="menu-item-has-children">
+                    </li> */}
+                    {/* <li className="menu-item-has-children">
                       <a href="#">Pages</a>
                       <ul className="sub-menu">
                         <li>
-                          <Link to={"/react-templates/edumim/about"}>
+                          <Link to={"//about"}>
                             About 1
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/about-two"}>
+                          <Link to={"//about-two"}>
                             About 2
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/instructor"}>
+                          <Link to={"//instructor"}>
                             Instructor
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/instructor-two"}>
+                          <Link to={"//instructor-two"}>
                             Instructor 2
                           </Link>
                         </li>
                         <li>
                           <Link
-                            to={"/react-templates/edumim/instructor-details"}
+                            to={"//instructor-details"}
                           >
                             Instructor Single
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/event"}>
+                          <Link to={"//event"}>
                             Event
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/event-single"}>
+                          <Link to={"//event-single"}>
                             Event Single
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/error"}>404</Link>
+                          <Link to={"//error"}>404</Link>
                         </li>
                       </ul>
-                    </li>
-                    <li className="menu-item-has-children">
+                    </li> */}
+                    {/* <li className="menu-item-has-children">
                       <a href="#">Courses</a>
                       <ul className="sub-menu">
                         <li>
-                          <Link to={"/react-templates/edumim/courses"}>
+                          <Link to={"//courses"}>
                             Courses
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/courses-sidebar"}>
+                          <Link to={"//courses-sidebar"}>
                             Courses Sidebar
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/single-course"}>
+                          <Link to={"//single-course"}>
                             Single Course
                           </Link>
                         </li>
                       </ul>
-                    </li>
-                    <li className="menu-item-has-children">
+                    </li> */}
+                    {/* <li className="menu-item-has-children">
                       <a href="#">Blog</a>
                       <ul className="sub-menu">
                         <li>
-                          <Link to={"/react-templates/edumim/blog-standard"}>
+                          <Link to={"//blog-standard"}>
                             Blog Standard
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/single-blog"}>
+                          <Link to={"//single-blog"}>
                             Blog Single
                           </Link>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                     <li>
-                      <Link to={"/react-templates/edumim/contacts"}>
+                          <Link to={"/"}>
+                            Home
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to={"/about"}>
+                            About Us
+                          </Link>
+                        </li>
+                        {/* <li>
+                          <Link to={"/courses"}>
+                            Courses
+                          </Link>
+                        </li> */}
+                        <li>
+                          <Link to={"/blog-standard"}>
+                            Blog
+                          </Link>
+                        </li>
+                    <li>
+                      <Link to={"/contacts"}>
                         Contacts
                       </Link>
                     </li>
@@ -257,25 +278,24 @@ const HomeTwoHeader = () => {
         />
       )}
       <div className="container relative">
-        <div className="xl:max-w-[570px] xl:pt-[129px] lg:py-28 md:py-20 py-14  lg:space-y-10 space-y-6">
-          <div className=" lg:text-[77px] lg:leading-[106.4px]  md:text-6xl md:leading-[72px] text-black font-bold text-5xl leading-[62px]">
+        <div className="xl:max-w-[570px] xl:pt-[129px] lg:py-28 md:py-20 py-14  lg:space-y-10 space-y-6 ">
+          <div className=" lg:text-[48px] lg:leading-[48px]  md:text-5xl md:leading-[48px] text-black font-bold text-5xl leading-[61px] ">
             Join Our <span className="text-primary">Dynamic Team</span> and Excel in Tele-calling with MMH 
           </div>
           <div className=" plain-text text-gray leading-[30px] border-l-2 border-primary pl-4">
-            It is long established fact that reader distracted by the readable
-            content.
+          We've Built Our Business Of Serving Your Needs On Some Core Principles. This We Believe Lets Us Serve Your Success And That Ultimately Is Our Goal.
           </div>
           <div className="md:flex  md:space-x-4 space-y-3 md:space-y-0 pt-5">
             <a href="#" className="btn btn-primary">
-              Get Started Now
+              Get A Quote
             </a>{" "}
             <a href="#" className="btn btn-black">
               Get Started Now
             </a>
           </div>
         </div>
-        <div className="imge-box  hidden  xl:block absolute right-[-60px] top-1/2  -translate-y-1/2 mt-[60px]  ">
-          <img src={man2} alt="" />
+        <div className="imge-box  hidden  xl:block absolute right-[-60px] top-1/2  -translate-y-1/2 mt-[58px]  ">
+          <img src={landing} alt="" />
         </div>
       </div>
     </section>

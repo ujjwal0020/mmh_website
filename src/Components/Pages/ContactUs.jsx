@@ -1,7 +1,8 @@
 import React from "react";
 import { call, mail, map } from "../../constant/images";
 import ContactForm from "../ContactForm";
-import Footer from "../Footer";
+// import Footer from "../Footer";
+import Footer from "../HomeTwoComponents/Footer";
 import Header from "../Header";
 import PageBanner from "../PageBanner";
 

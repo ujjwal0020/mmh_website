@@ -1,6 +1,6 @@
 import React from "react";
 import whyimg from '../../assets/images/whychooseMMH.jpg';
-import { about4, miniHeart, miniTarget } from "../../constant/images";
+import {  miniHeart, miniTarget } from "../../constant/images";
 
 const WhyChoose = () => {
   return (

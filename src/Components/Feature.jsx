@@ -7,7 +7,7 @@ const Feature = () => {
         <div className="text-center">
           <div className="mini-title">Core Features</div>
           <div className="column-title ">
-            Why <span className="shape-bg">Choose</span> Edumim
+            Why <span className="shape-bg">Choose</span> mmh
           </div>
         </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px] pt-10">
@@ -19,11 +19,10 @@ const Feature = () => {
               <iconify-icon icon="codicon:globe"></iconify-icon>
             </div>
             <h4 className=" lg:text-2xl text-[22px] leading-[30px] mb-4 transition duration-150 group-hover:text-white">
-              Learn More Anywhere
+              Data Protection
             </h4>
             <div className="transition duration-150 group-hover:text-white">
-              Learn from anywhere in world on desktop, mobile or tablet with an
-              Internet connection.{"}"}
+            The safety of your personal information is extremely important to us. Our secure tech infrastructure is handled by in-house IT professionals to ensure that all data collected during our tasks and assignments is safe and secure.{"}"}
             </div>
           </div>
 
@@ -35,11 +34,10 @@ const Feature = () => {
               <iconify-icon icon="healthicons:i-training-class-outline"></iconify-icon>
             </div>
             <h4 className=" lg:text-2xl text-[22px] leading-[30px] mb-4 transition duration-150 group-hover:text-white">
-              Expert Instructor
+              Quality of Work
             </h4>
             <div className="transition duration-150 group-hover:text-white">
-              Learn from anywhere in world on desktop, mobile or tablet with an
-              Internet connection.{"}"}
+            They say the golden rule for every businessman is this: ‘put yourself in your customer’s place’. We abide by this rule. Our Virtual Assistants work closely with our clients to understand their requirements and provide them with the best quality services.{"}"}
             </div>
           </div>
 
@@ -54,8 +52,7 @@ const Feature = () => {
               24/7 Strong Support
             </h4>
             <div className="transition duration-150 group-hover:text-white">
-              Learn from anywhere in world on desktop, mobile or tablet with an
-              Internet connection.{"}"}
+            With a rotating team, always operational offices, great software and hardware we ensure we are available for you 24 hours all 365 days of the year. Whenever you need our services, we are just a call or email away to get started on your task.{"}"}
             </div>
           </div>
         </div>

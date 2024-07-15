@@ -35,7 +35,7 @@ const ContactForm = () => {
           setName("");
           setMobileNumber("")
           setMessage("");
-          naviget("/react-templates/edumim/thanks");
+          naviget("//thanks");
           setLoading(false);
         },
         (err) => {

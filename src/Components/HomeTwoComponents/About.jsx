@@ -1,13 +1,13 @@
 import React from "react";
-import about3 from "../../assets/images/about mmh1.jpeg";
+import about3 from "../../assets/images/landing_page6.jpg";
 
 const About = () => {
   return (
     <div className="about-area section-padding">
       <div className="container">
         <div className="grid grid-cols-12 gap-[30px]">
-          <div className="xl:col-span-7 lg:col-span-6 col-span-12">
-            <img src={about3} alt="" className=" block w-full" />
+          <div className="xl:col-span-8 lg:col-span-6 col-span-12 ">
+            <img src={about3} alt="" className=" block w-full h-full object-cover" />
           </div>
           <div className="xl:col-span-5 lg:col-span-6 col-span-12">
             <div className="mini-title">About mmh</div>

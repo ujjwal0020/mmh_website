@@ -17,9 +17,10 @@ import {
   rc3,
   search,
 } from "../../constant/images";
-import Footer from "../Footer";
+// ../HomeTwoComponents/Footer
 import Header from "../Header";
 import PageBanner from "../PageBanner";
+import Footer from "../HomeTwoComponents/Footer";
 
 const BLogStandard = () => {
   return (

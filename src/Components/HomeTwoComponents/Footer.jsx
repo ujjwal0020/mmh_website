@@ -1,19 +1,19 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import logo from '../../assets/images/logo/MMH logo 1.png';
+import logo from '../../assets/images/logo/MMH_logo_1.png';
 import {
   fbIcon,
-  footerLogo2,
   insIcon,
   pnIcon,
   twIcon,
-  insIcon1,
-  insIcon2,
-  insIcon3,
-  insIcon4,
-  insIcon5,
-  insIcon6,
+
 } from "../../constant/images";
+import about3 from "../../assets/images/landing_page6.jpg";
+import about4 from "../../assets/images/landing_page1.webp";
+import about5 from "../../assets/images/landing_page2.avif";
+import about6 from "../../assets/images/tech.jpg";
+import about7 from '../../assets/images/beprep.png';
+import about8 from '../../assets/images/landing_page3.webp';
 
 const Footer = () => {
   return (
@@ -77,16 +77,10 @@ const Footer = () => {
                     </h4>
                     <ul className="list-item space-y-5">
                       <li>
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                       </li>
                       <li>
                         <a href="#">About Us</a>
-                      </li>
-                      <li>
-                        <a href="#">Pricing</a>
-                      </li>
-                      <li>
-                        <a href="#">Courses</a>
                       </li>
                       <li>
                         <a href="#">Contact Us</a>
@@ -130,12 +124,12 @@ const Footer = () => {
               </h4>
               <div className="grid grid-cols-3 gap-4">
                 {[
-                  insIcon1,
-                  insIcon2,
-                  insIcon3,
-                  insIcon4,
-                  insIcon5,
-                  insIcon6,
+                  about3,
+                  about4,
+                  about5,
+                  about6,
+                  about7,
+                  about8,
                 ].map((item, index) => (
                   <div key={index}>
                     <a
@@ -160,8 +154,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="container border-t border-[#E9D4D0] py-8 text-center text-base">
-          &copy; Copyright 2024 | info@makemoneyonline.com | All Rights Reserved
+        <div className="container border-t border-[#E9D4D0] py-8 text-center text-base ">
+          &copy; Copyright 2024 | <span className="lowercase"> info@makemoneyonline.com </span>| All Rights Reserved
         </div>
       </div>
     </footer>

@@ -9,7 +9,7 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
   const [showHomeMenu, setShowHomeMenu] = useState(false);
   const [showPageMenu, setShowPageMenu] = useState(false);
   const [showBlogMenu, setShowBlogMenu] = useState(false);
-  const [showCourseMenu, setShowCourseMenu] = useState(false);
+ 
   const handleShowHomeMenu = () => {
     setShowHomeMenu(!showHomeMenu);
   };
@@ -19,15 +19,13 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
   const handleShowBlogMenu = () => {
     setShowBlogMenu(!showBlogMenu);
   };
-  const handleShowCourseMenu = () => {
-    setShowCourseMenu(!showCourseMenu);
-  };
+
   return (
     <>
       <div className="openmobile-menu fixed top-0 h-screen pt-10 pb-6 bg-white shadow-box2 w-[320px] overflow-y-auto flex flex-col z-[999] active-mobile-menu">
         <div className="flex justify-between px-6 flex-none">
           <Link
-            to={"/react-templates/edumim/home"}
+            to={"/"}
             className="brand-logo flex-none mr-10 "
           >
             <img src={logo} alt="logo" />
@@ -47,7 +45,10 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
               className={`menu-item-has-children ${showHomeMenu ? "open" : ""}`}
               onClick={handleShowHomeMenu}
             >
-              <a href="#">Home</a>
+              <li>
+                  <Link to={"/"}>Home </Link>
+                </li>
+              {/* <a href="#">Home</a>
               <ul
                 className="sub-menu"
                 style={
@@ -55,23 +56,23 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
                 }
               >
                 <li>
-                  <Link to={"/react-templates/edumim"}>Home One</Link>
+                  <Link to={"/"}>Home One</Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/home-two"}>Home Two</Link>
+                  <Link to={"//home-two"}>Home Two</Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/home-three"}>
+                  <Link to={"//home-three"}>
                     Home Three
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li
               className={`menu-item-has-children ${showPageMenu ? "open" : ""}`}
               onClick={handleShowPageMenu}
             >
-              <a href="#">Pages</a>
+              {/* <a href="#">Pages</a>
               <ul
                 className="sub-menu"
                 style={
@@ -79,72 +80,48 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
                 }
               >
                 <li>
-                  <Link to={"/react-templates/edumim/about"}>About 1</Link>
+                  <Link to={"//about"}>About 1</Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/about-two"}>About 2</Link>
+                  <Link to={"//about-two"}>About 2</Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/instructor"}>
+                  <Link to={"//instructor"}>
                     Instructor
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/instructor-two"}>
+                  <Link to={"//instructor-two"}>
                     Instructor 2
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/instructor-details"}>
+                  <Link to={"//instructor-details"}>
                     Instructor Single
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/event"}>Event</Link>
+                  <Link to={"//event"}>Event</Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/event-single"}>
+                  <Link to={"//event-single"}>
                     Event Single
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/error"}>404</Link>
+                  <Link to={"//error"}>404</Link>
                 </li>
-              </ul>
+              </ul> */}
+              <li>
+                  <Link to={"/about"}>About Us</Link>
+                </li>
             </li>
-            <li
-              className={`menu-item-has-children ${
-                showCourseMenu ? "open" : ""
-              }`}
-              onClick={handleShowCourseMenu}
-            >
-              <a href="#">Courses</a>
-              <ul
-                className="sub-menu"
-                style={
-                  showCourseMenu ? { display: "block" } : { display: "none" }
-                }
-              >
-                <li>
-                  <Link to={"/react-templates/edumim/courses"}>courses</Link>
-                </li>
-                <li>
-                  <Link to={"/react-templates/edumim/courses-sidebar"}>
-                    courses Sidebar
-                  </Link>
-                </li>
-                <li>
-                  <Link to={"/react-templates/edumim/single-course"}>
-                    Single-course
-                  </Link>
-                </li>
-              </ul>
-            </li>
+            
             <li
               className={`menu-item-has-children ${showBlogMenu ? "open" : ""}`}
               onClick={handleShowBlogMenu}
             >
-              <a href="#">Blog</a>
+              {/* <a href="#">Blog</a>
               <ul
                 className="sub-menu"
                 style={
@@ -152,19 +129,24 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
                 }
               >
                 <li>
-                  <Link to={"/react-templates/edumim/blog-standard"}>
+                  <Link to={"//blog-standard"}>
                     Blog Standard
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/single-blog"}>
+                  <Link to={"//single-blog"}>
                     Single Blog
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
+               <li>
+                  <Link to={"/blog-standard"}>
+                    Blog 
+                  </Link>
+                </li>
             </li>
             <li>
-              <Link to={"/react-templates/edumim/contacts"}>Contacts</Link>
+              <Link to={"/contacts"}>Contacts</Link>
             </li>
           </ul>
         </div>

@@ -17,14 +17,13 @@ const Accordion = () => {
                 {({ open }) => (
                   <li className={open ? "open" : null} >
                     <Disclosure.Button type="button" className="accrodain-button">
-                      <span>What does it take excellent author?</span>
+                      <span>What industries you serve?</span>
                       <span className="icon-pm"></span>
                     </Disclosure.Button>
 
                     <Disclosure.Panel className="content">
-                      Learn at your own pace, move between multiple courses, or
-                      switch to a different course. Earn a certificate for every
-                      learning program that you complete at no additional cost.
+                    We have professionals and experts for all industries working with us. To name few we serve: Advertising, Legal, Finance, IT, Management, Call Centre,
+                     Real Estate, Graphics and Designing and many more sectors. We also serve freelancers, SME and individual Entrepreneurs.
                     </Disclosure.Panel>
                   </li>
                 )}
@@ -34,14 +33,13 @@ const Accordion = () => {
                 {({ open }) => (
                   <li className={open ? "open" : null} >
                     <Disclosure.Button type="button" className="accrodain-button">
-                      <span>What does it take excellent author?</span>
+                      <span>How do you ensure my data is safe?</span>
                       <span className="icon-pm"></span>
                     </Disclosure.Button>
 
                     <Disclosure.Panel className="content">
-                      Learn at your own pace, move between multiple courses, or
-                      switch to a different course. Earn a certificate for every
-                      learning program that you complete at no additional cost.
+                    We are an ISO 27001:2013 certified company and have all policies, hardware, software in place to ensure there is no compromise with data security.
+                     Infact there have been NO data security violation since the incenpion of the company.
                     </Disclosure.Panel>
                   </li>
                 )}
@@ -51,14 +49,13 @@ const Accordion = () => {
                 {({ open }) => (
                   <li className={open ? "open" : null} >
                     <Disclosure.Button type="button" className="accrodain-button">
-                      <span>What does it take excellent author?</span>
+                      <span>How do we communicate and work together?</span>
                       <span className="icon-pm"></span>
                     </Disclosure.Button>
 
                     <Disclosure.Panel className="content">
-                      Learn at your own pace, move between multiple courses, or
-                      switch to a different course. Earn a certificate for every
-                      learning program that you complete at no additional cost.
+                    We use email, telephone, Skype, messenger, screen-sharing and project management tools to communicate with our clients.
+                     We will do our best to accommodate your business and your preferred style of communication when delegating tasks.
                     </Disclosure.Panel>
                   </li>
                 )}
@@ -68,14 +65,13 @@ const Accordion = () => {
                 {({ open }) => (
                   <li className={open ? "open" : null} >
                     <Disclosure.Button type="button" className="accrodain-button">
-                      <span>What does it take excellent author?</span>
+                      <span>Is there any plan Upgrade and Downgrade fee?</span>
                       <span className="icon-pm"></span>
                     </Disclosure.Button>
 
                     <Disclosure.Panel className="content">
-                      Learn at your own pace, move between multiple courses, or
-                      switch to a different course. Earn a certificate for every
-                      learning program that you complete at no additional cost.
+                    No, there is no Plan Upgrade or Downgrade fee. You just need to let us know about a change in plan a week before your existing plan
+                     is about to expire and we will move you to a new plan without any fee.
                     </Disclosure.Panel>
                   </li>
                 )}
