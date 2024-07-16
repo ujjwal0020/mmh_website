@@ -7,14 +7,14 @@ import Accordion from "../HomeThreeComponents/Accordion";
 // import Team from "../HomeThreeComponents/Team";
 import About from "../HomeTwoComponents/About";
 import Counter from "../HomeTwoComponents/Counter";
-import PageBanner from "../PageBanner";
+// import PageBanner from "../PageBanner";
 import Testimonials from "../Testimonials";
 
 const AboutOne = () => {
   return (
     <>
       <Header />
-      <PageBanner title={"About Us"} pageTitle="About Us" num={1} />
+      {/* <PageBanner title={"About Us"} pageTitle="About Us" num={1} /> */}
       <About />
       <Feature />
       <Counter />

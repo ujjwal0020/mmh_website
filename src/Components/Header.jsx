@@ -144,11 +144,11 @@ const Header = () => {
                             About Us
                           </Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link to={"/courses"}>
                             Courses
                           </Link>
-                        </li>
+                        </li> */}
                         <li>
                           <Link to={"/blog-standard"}>
                             Blog

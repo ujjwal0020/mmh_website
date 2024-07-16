@@ -2,7 +2,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo/logo.svg";
+// import logo from "../assets/images/logo/logo.svg";
+import logo from '../assets/images/logo/MMH_logo_1.png';
 import { fbIcon, twIcon, pnIcon, insIcon } from "../constant/images";
 
 const MobileMenu = ({ activeMenu, setActiveMenu }) => {
@@ -28,7 +29,7 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
             to={"/"}
             className="brand-logo flex-none mr-10 "
           >
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className="ulk"/>
           </Link>
           <span
             className=" text-3xl text-black cursor-pointer rt-mobile-menu-close"

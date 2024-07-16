@@ -3,26 +3,54 @@ import React from "react";
 import {
   bThumb1,
   bThumb2,
-  bThumb3,
-  bThumb4,
+  // bThumb3,
   calender,
-  clockIcon,
-  insIcon1,
-  insIcon2,
-  insIcon3,
-  insIcon4,
-  insIcon5,
-  insIcon6,
-  rc1,
-  rc2,
-  rc3,
+  // insIcon1,
+  // insIcon2,
+  // insIcon3,
+  // insIcon4,
+  // insIcon5,
+  // insIcon6,
+  // rc1,
+  // rc2,
+  // rc3,
   search,
 } from "../../constant/images";
+import about3 from "../../assets/images/landing_page6.jpg";
+import about4 from "../../assets/images/landing_page1.webp";
+import about5 from "../../assets/images/landing_page2.avif";
+import about6 from "../../assets/images/tech.jpg";
+import about7 from '../../assets/images/beprep.png';
+import about8 from '../../assets/images/landing_page3.webp';
+
+import mt from '../../assets/images/whatsapp.webp';
+import mt1 from '../../assets/images/sales.webp';
+import mt2 from '../../assets/images/crm1.webp';
+import mt3 from '../../assets/images/buisness.png';
+
 // ../HomeTwoComponents/Footer
 import Header from "../Header";
-import PageBanner from "../PageBanner";
+// import PageBanner from "../PageBanner";
 import Footer from "../HomeTwoComponents/Footer";
 const blogPosts = [
+  {
+    image: mt2,
+    title: "A 5-Minute Guide on Operational CRM You Need to Know in 2024",
+    content: "Running a business isn’t as straightforward as it looks. You’re constantly juggling multiple tasks, from sales and marketing to research and customer support. These demanding and repetitive tasks can quickly drain your energy and that of your team. But with an operational CRM, you can simplify and streamline your workflow which means it does all the heavy lifting, allowing you and your team to focus on the strategy side of things.But there’s more to operational CRM than just automation. Keep reading to find out more about this particular type of CRM and understand how exactly it benefits your business. ",
+    date: "17 May, 24"
+  },
+  {
+    image: mt1,
+    title: "What is Sales Automation? Ultimate Guide [+ Examples]",
+    content: "Sales automation refers to automating all your routine sales tasks, from tracking leads and scheduling follow-ups to analysing sales data and managing customer interactions, so that Your agents don’t have to deal with those tasks.The chances of human errors are reduced to zero.Your team’s collective time and energy are better spent on tasks that truly matter.A sales automation tool makes the process of selling faster, more efficient and less prone to errors. ",
+    date: "12 July, 24"
+  },
+  {
+    image: mt,
+    title: "Setup WhatsApp Community in 4 Clicks (With Tips for High Engagement)",
+    content: "WhatsApp Community or WhatsApp Community group is basically an upgrade to the existing group chat feature on the app that allows you to manage and communicate with multiple groups under a single umbrella. It’s like having a dedicated space where all your customer groups can come together, without the clutter and limitations of traditional group chats.Imagine being able to send a message that can reach different WhatsApp groups without having to post it individually in each group. That’s the convenience WhatsApp Community offers, making it an invaluable tool for anyone looking to maintain and send bulk messages without any hassle.",
+    date: "1 march, 24"
+  },
   {
     image: bThumb1,
     title: "Indian Virtual Assistant’s not so virtual after all",
@@ -43,93 +71,23 @@ const blogPosts = [
      date: "15 July, 21"
   },
   {
-    image: bThumb3,
-    title: "Title for Third Blog Post",
+    image: mt3,
+    title: "Here is why your Business/Start-up is guaranteed to fail!",
     content: "Starting a business or a startup is an exciting venture, but it's fraught with challenges that can lead to failure if not addressed. One of the most critical reasons businesses fail is the lack of a clear value proposition. Without a unique selling point, your business will struggle to stand out in a crowded market. Additionally, poor financial management and inadequate funding can cripple your startup before it even gets off the ground. A failure to understand your target market and adapt to their needs can also spell disaster. Lastly, ineffective leadership and the inability to build a cohesive team can lead to internal conflicts and a lack of direction, ultimately causing your business to fail. Understanding and mitigating these risks is crucial for any startup's success.",
     date: "07 September, 19"
   },
-  {
-    image: bThumb1,
-    title: "A 5-Minute Guide on Operational CRM You Need to Know in 2024",
-    content: "Running a business isn’t as straightforward as it looks. You’re constantly juggling multiple tasks, from sales and marketing to research and customer support. These demanding and repetitive tasks can quickly drain your energy and that of your team. But with an operational CRM, you can simplify and streamline your workflow which means it does all the heavy lifting, allowing you and your team to focus on the strategy side of things.But there’s more to operational CRM than just automation. Keep reading to find out more about this particular type of CRM and understand how exactly it benefits your business. ",
-    date: "17 May, 24"
-  },
-  {
-    image: bThumb2,
-    title: "Title for Fifth Blog Post",
-    content: "Content for the fifth blog post.",
-    date: "15 July, 21"
-  },
-  {
-    image: bThumb3,
-    title: "Title for Sixth Blog Post",
-    content: "Content for the sixth blog post.",
-    date: "16 July, 21"
-  }
+  
 ];
 
 const BLogStandard = () => {
   return (
     <>
       <Header />
-      <PageBanner title={"Blog Standard"} pageName={"Blog Standard"} />
+      {/* <PageBanner title={"Blog Standard"} pageName={"Blog Standard"} /> */}
       <div className="nav-tab-wrapper tabs  section-padding">
         <div className="container">
           <div className="grid grid-cols-12 gap-[30px]">
             <div className="lg:col-span-8 col-span-12">
-<<<<<<< Updated upstream
-              <div className="grid  grid-cols-1 gap-[30px]">
-                {[bThumb1, bThumb2, bThumb3].map((item, index) => (
-                  <div className=" bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13">
-                    <div
-                      className="course-thumb h-[420px] rounded-t-[8px]  relative"
-                      key={index}
-                    >
-                      <img
-                        src={item}
-                        alt=""
-                        className=" w-full h-full object-cover rounded-t-[8px]"
-                      />
-                    </div>
-                    <div className="course-content p-8">
-                      <span className="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white inline-block">
-                        Education
-                      </span>
-                      <h3 className=" mb-4 mt-4">
-                        <a
-                          href="single-blog"
-                          className=" hover:text-primary transition duration-150"
-                        >
-                          Analytics To Help You Understand Your Customers
-                          Properly
-                        </a>
-                      </h3>
-                      <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form, by injected humour.
-                      </p>
-                      <div className="flex   lg:space-x-10 space-x-5 mt-6">
-                        <a
-                          className=" flex items-center space-x-2"
-                          href="blog-single.html"
-                        >
-                          <img src={calender} alt="" />
-                          <span>21 Feb, 22</span>
-                        </a>
-                        <a
-                          className=" flex items-center space-x-2"
-                          href="single-blog"
-                        >
-                          <img src={clockIcon} alt="" />
-                          <span>3 Min Read</span>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-=======
             <div className="grid grid-cols-1 gap-[30px]">
       {blogPosts.map((post, index) => (
         <div
@@ -331,7 +289,7 @@ const BLogStandard = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="wdiget widget-recent-post">
+                {/* <div className="wdiget widget-recent-post">
                   <h4 className=" widget-title">Related Courses</h4>
                   <ul className="list">
                     <li className=" flex space-x-4 border-[#ECECEC] pb-6 mb-6 last:pb-0 last:mb-0 last:border-0 border-b">
@@ -392,7 +350,7 @@ const BLogStandard = () => {
                       </div>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 <div className="wdiget">
                   <h4 className="widget-title">Popular Tags</h4>
                   <ul className="flex flex-wrap">
@@ -482,12 +440,12 @@ const BLogStandard = () => {
                   <h4 className="widget-title">Instagram Feed</h4>
                   <div className="grid grid-cols-3 gap-4">
                     {[
-                      insIcon1,
-                      insIcon2,
-                      insIcon3,
-                      insIcon4,
-                      insIcon5,
-                      insIcon6,
+                      about3,
+                      about4,
+                      about5,
+                      about6,
+                      about7,
+                      about8
                     ].map((item, index) => (
                       <div key={index}>
                         <a
