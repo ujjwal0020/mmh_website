@@ -102,9 +102,16 @@ import web from "../assets/images/icon/web.svg";
 import cmnt1 from "../assets/images/all-img/cmnt-1.png";
 import cmnt2 from "../assets/images/all-img/cmnt-2.png";
 import calender from "../assets/images/svg/calender.svg";
+<<<<<<< Updated upstream
 import bThumb1 from "../assets/images/all-img/b-thub-1.png";
 import bThumb2 from "../assets/images/all-img/b-thumb-2.png";
 import bThumb3 from "../assets/images/all-img/b-thub-3.png";
+=======
+import bThumb1 from "../assets/images/tech.jpg";
+import bThumb2 from "../assets/images/myths.png";
+import bThumb3 from "../assets/images/ezif.png";
+// import bThumb4 from "../assets/images/crm.png";
+>>>>>>> Stashed changes
 import bs1 from "../assets/images/all-img/b-s-1.png";
 import bs2 from "../assets/images/all-img/b-s-2.png";
 import bs3 from "../assets/images/all-img/b-s-3.png";
