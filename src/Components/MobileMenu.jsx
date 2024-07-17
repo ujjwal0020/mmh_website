@@ -29,7 +29,7 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
             to={"/"}
             className="brand-logo flex-none mr-10 "
           >
-            <img src={logo} alt="logo" className="ulk"/>
+           <img src={logo} alt="logo" className="w-16 h-16 md:w-10 md:h-10 lg:w-8 lg:h-8"/>
           </Link>
           <span
             className=" text-3xl text-black cursor-pointer rt-mobile-menu-close"
