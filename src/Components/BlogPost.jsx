@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import {
-  bs1,
+  // bs1,
   bs2,
   bs3,
   user3,
@@ -19,12 +19,19 @@ import {
   insIcon3,
   insIcon2,
   search,
-  rc2,
-  insIcon4,
-  insIcon5,
-  insIcon6,
+  // rc2,
+  // insIcon4,
+  // insIcon5,
+  // insIcon6,
 } from "../constant/images";
+import about3 from "../assets/images/landing_page6.jpg";
+import about4 from "../assets/images/landing_page1.webp";
+import about5 from "../assets/images/landing_page2.avif";
+import about6 from "../assets/images/tech.jpg";
+import about7 from '../assets/images/beprep.png';
+import about8 from '../assets/images/landing_page3.webp';
 import ContactForm from "./ContactForm";
+import mt2 from '../assets/images/crm1.webp';
 
 const BlogPost = () => {
   return (
@@ -33,20 +40,20 @@ const BlogPost = () => {
         <div className="grid grid-cols-12 gap-[30px]">
           <div className="lg:col-span-8 col-span-12">
             <div className="bg-[#F8F8F8] rounded-md">
-              <img src={bs1} alt="" className=" rounded-t-md mb-10" />
+              <img src={mt2} alt="" className=" rounded-t-md mb-10" />
               <div className="px-10 pb-10">
                 <div className="flex  flex-wrap  xl:space-x-10 space-x-5 mt-6 mb-6">
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={user3} alt="" />
-                    <span>Edumim</span>
+                    <span>Fahad Abdullah</span>
                   </a>
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={calender} alt="" />
-                    <span>3 21 Feb, 22</span>
+                    <span> 17 May,24</span>
                   </a>
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={clockIcon} alt="" />
-                    <span>3 Min Read</span>
+                    <span>5 Min Read</span>
                   </a>
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={comment} alt="" />
@@ -54,15 +61,18 @@ const BlogPost = () => {
                   </a>
                 </div>
                 <h3>
-                  Learn At Your Own Pace, with Lifetime Access on Mobile &
-                  Desktop
+                A 5-Minute Guide on Operational CRM You Need to Know in 2024
                 </h3>
                 <p className="mt-6">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don’t look
-                  even slightly believable. As students across the globe
-                  continue to see their learning plans significantly.
+                An operational CRM (customer relationship management) system streamlines and automates your marketing, sales and customer service workflows; enhances the customer experience; and increases conversions by helping manage and analyse customer interactions.
+
+Popular operational CRM software like TeleCRM can help your business in multiple ways.
+
+Features like Autodialer, Leaderboard, WhatsApp bulk broadcasting, etc., help you streamline various business operations and reduce the workload of your team(s) significantly 
+
+It stores lead and customer data in a single system, enabling easy access for you and your team
+
+You can monitor the performance of every single member of your sales and customer support teams from a single dashboard
                 </p>
                 <blockquote className=" bg-secondary p-8 rounded-md bg-[url('../images/all-img/bb.png')] bg-cover bg-no-repeat bg-center my-8 text-white">
                   <img src={q} alt="" />
@@ -443,7 +453,7 @@ const BlogPost = () => {
                   </li>
                 </ul>
               </div>
-              <div className="wdiget widget-recent-post">
+              {/* <div className="wdiget widget-recent-post">
                 <h4 className=" widget-title">Related Courses</h4>
                 <ul className="list">
                   <li className=" flex space-x-4 border-[#ECECEC] pb-6 mb-6 last:pb-0 last:mb-0 last:border-0 border-b">
@@ -504,7 +514,7 @@ const BlogPost = () => {
                     </div>
                   </li>
                 </ul>
-              </div>
+              </div> */}
               <div className="wdiget">
                 <h4 className="widget-title">Popular Tags</h4>
                 <ul className="flex flex-wrap">
@@ -595,12 +605,12 @@ const BlogPost = () => {
                 <h4 className="widget-title">Instagram Feed</h4>
                 <div className="grid grid-cols-3 gap-4">
                   {[
-                    insIcon1,
-                    insIcon2,
-                    insIcon3,
-                    insIcon4,
-                    insIcon5,
-                    insIcon6,
+                    about3,
+                    about4,
+                    about5,
+                    about6,
+                    about7,
+                    about8
                   ].map((item, index) => (
                     <div key={index}>
                       <a

@@ -128,7 +128,6 @@ const BLogStandard = () => {
         </div>
       ))}
     </div>
->>>>>>> Stashed changes
               <div className="pagination mt-14">
                 <ul className=" flex justify-center space-x-3">
                   <li className="inline-flex">

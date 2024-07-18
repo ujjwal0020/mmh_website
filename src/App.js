@@ -4,6 +4,7 @@ import HomeTwo from "./Components/Home/HomeTwo";
 import ErrorPage from "./Components/Pages/404Page";
 import AboutOne from "./Components/Pages/AboutOne";
 import BLogStandard from "./Components/Pages/BLogStandard";
+import SingleBlog from "./Components/Pages/SingleBlog";
 import ContactUs from "./Components/Pages/ContactUs";
 import Courses from "./Components/Pages/Courses";
 
@@ -26,10 +27,7 @@ function App() {
             element={<SingleCourse />}
           /> */}
           <Route path="blog-standard" element={<BLogStandard />} />
-          {/* <Route
-            path="single-blog"
-            element={<SingleBlog />}
-          /> */}
+          <Route path="single-blog" element={<SingleBlog />}/>
           <Route path="contacts" element={<ContactUs />} />
           <Route path="thanks" element={<Thanks />} />
           <Route path="*" element={<ErrorPage />} />
