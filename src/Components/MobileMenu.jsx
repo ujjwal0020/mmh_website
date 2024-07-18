@@ -130,7 +130,7 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
                 }
               >
                 <li>
-                  <Link to={"//blog-standard"}>
+                  <Link to={"//blogs"}>
                     Blog Standard
                   </Link>
                 </li>
@@ -141,7 +141,7 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
                 </li>
               </ul> */}
                <li>
-                  <Link to={"/blog-standard"}>
+                  <Link to={"/blogs"}>
                     Blog 
                   </Link>
                 </li>

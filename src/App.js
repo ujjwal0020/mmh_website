@@ -26,8 +26,8 @@ function App() {
             path="single-course"
             element={<SingleCourse />}
           /> */}
-          <Route path="blog-standard" element={<BLogStandard />} />
-          <Route path="single-blog" element={<SingleBlog />}/>
+          <Route path="blogs" element={<BLogStandard />} />
+          <Route path="blogs/:title" element={<SingleBlog />}/>
           <Route path="contacts" element={<ContactUs />} />
           <Route path="thanks" element={<Thanks />} />
           <Route path="*" element={<ErrorPage />} />
