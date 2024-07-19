@@ -2,38 +2,31 @@
 import React from "react";
 import {
   // bs1,
-  bs2,
-  bs3,
   user3,
-  comment,
-  q,
   calender,
   clockIcon,
   fbIcon,
   pnIcon,
   twIcon,
   insIcon,
-  rc3,
-  rc1,
-  insIcon1,
-  insIcon3,
-  insIcon2,
   search,
   // rc2,
   // insIcon4,
   // insIcon5,
   // insIcon6,
-} from "../constant/images";
-import about3 from "../assets/images/landing_page6.jpg";
-import about4 from "../assets/images/landing_page1.webp";
-import about5 from "../assets/images/landing_page2.avif";
-import about6 from "../assets/images/tech.jpg";
-import about7 from '../assets/images/beprep.png';
-import about8 from '../assets/images/landing_page3.webp';
-import ContactForm from "./ContactForm";
-import mt2 from '../assets/images/crm1.webp';
+} from "../../constant/images";
+import about3 from "../../assets/images/landing_page6.jpg";
+import about4 from "../../assets/images/landing_page1.webp";
+import about5 from "../../assets/images/landing_page2.avif";
+import about6 from "../../assets/images/tech.jpg";
+import about7 from '../../assets/images/beprep.png';
+import about8 from '../../assets/images/landing_page3.webp';
+import ContactForm from "../ContactForm";
+import mt2 from '../../assets/images/whatsapp.webp';
+import mt3 from '../../assets/images/whatsapp_community.webp';
+import mt4 from '../../assets/images/whatsapp_comp.webp';
 
-const BlogPost = () => {
+const Blog3 = () => {
   return (
     <div className="nav-tab-wrapper tabs  section-padding">
       <div className="container">
@@ -45,36 +38,30 @@ const BlogPost = () => {
                 <div className="flex  flex-wrap  xl:space-x-10 space-x-5 mt-6 mb-6">
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={user3} alt="" />
-                    <span>Fahad Abdullah</span>
+                    <span>Faradh Abdhullah</span>
                   </a>
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={calender} alt="" />
-                    <span> 17 May,24</span>
+                    <span> 1 March,24</span>
                   </a>
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={clockIcon} alt="" />
                     <span>5 Min Read</span>
                   </a>
-                  <a className=" flex items-center space-x-2" href="#">
+                  {/* <a className=" flex items-center space-x-2" href="#">
                     <img src={comment} alt="" />
                     <span>02 Comments</span>
-                  </a>
+                  </a> */}
                 </div>
                 <h3>
-                A 5-Minute Guide on Operational CRM You Need to Know in 2024
+                Setup WhatsApp Community in 4 Clicks (With Tips for High Engagement)
                 </h3>
                 <p className="mt-6">
-                An operational CRM (customer relationship management) system streamlines and automates your marketing, sales and customer service workflows; enhances the customer experience; and increases conversions by helping manage and analyse customer interactions.
+                WhatsApp Community or WhatsApp Community group is basically an upgrade to the existing group chat feature on the app that allows you to manage and communicate with multiple groups under a single umbrella. It’s like having a dedicated space where all your customer groups can come together, without the clutter and limitations of traditional group chats.
 
-Popular operational CRM software like TeleCRM can help your business in multiple ways.
-
-Features like Autodialer, Leaderboard, WhatsApp bulk broadcasting, etc., help you streamline various business operations and reduce the workload of your team(s) significantly 
-
-It stores lead and customer data in a single system, enabling easy access for you and your team
-
-You can monitor the performance of every single member of your sales and customer support teams from a single dashboard
+Imagine being able to send a message that can reach different WhatsApp groups without having to post it individually in each group. That’s the convenience WhatsApp Community offers, making it an invaluable tool for anyone looking to maintain and send bulk messages without any hassle.
                 </p>
-                <blockquote className=" bg-secondary p-8 rounded-md bg-[url('../images/all-img/bb.png')] bg-cover bg-no-repeat bg-center my-8 text-white">
+                {/* <blockquote className=" bg-secondary p-8 rounded-md bg-[url('../images/all-img/bb.png')] bg-cover bg-no-repeat bg-center my-8 text-white">
                   <img src={q} alt="" />
                   <div className=" text-xl font-semibold my-6">
                     “ Education is one of the most powerful aspects of life.
@@ -88,38 +75,37 @@ You can monitor the performance of every single member of your sales and custome
                       Rosalina D. Jackson
                     </span>
                   </div>
-                </blockquote>
+                </blockquote> */}
+                <br />
+                <h3>What is the use of community in WhatsApp?</h3>
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don’t look
-                  even slightly believable. As students across the globe
-                  continue to see their learning plans significantly.
+                WhatsApp Community was launched on November 3, 2022, to allow users to bring multiple groups under one centralized space. This feature is a great value add for organisations, clubs, societies, social media influencers and even celebrities looking to share quick updates with their members or followers.
                 </p>
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-[30px] my-8">
-                  <img src={bs2} alt="" />
-                  <img src={bs3} alt="" />
+                  <img src={mt3} alt="" />
+                  <img src={mt4} alt="" />
                 </div>
                 <h4 className="text-2xl mb-4">
-                  Education Is About Academic Excellence And Cultural Diversity
-                  Learning Community
+                Useful WhatsApp community features
                 </h4>
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don’t look
-                  even slightly believable.
+                WhatsApp Community is itself a feature that helps you streamline multiple operations of your business that otherwise would have required too much manual effort.
                 </p>
                 <ul className="list-disc marker:text-secondary space-y-4 mt-6">
                   <li className="">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Centralised communication platform
                   </li>
+                  <p>The core feature of WhatsApp Community is to act as a central hub where messages, announcements and updates can be shared with multiple groups simultaneously. It helps you manage your communication better, making it easier to keep your audience informed and engaged.</p>
                   <li className="">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Broadcast messaging
                   </li>
+                  <p>The ability to send broadcast messages to multiple groups simultaneously is invaluable for any business looking to share its message efficiently. Whether it’s a new product launch, a service update or important news, you can rest assured that your message will reach all relevant stakeholders instantly, without any delay.
+
+</p>
                   <li className="">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Privacy and security
                   </li>
+                  <p>WhatsApp’s commitment to privacy and security is crucial for businesses in building trust with their customers. By ensuring that the personal contact details of members within a community are not visible to other members of that community, you can foster a safe and secure environment for communication, which is essential for maintaining customer trust and loyalty.</p>
                 </ul>
                 <div className="grid xl:grid-cols-2 grid-cols-1  gap-5 md:mt-14 mt-8 ">
                   <ul className="flex items-center space-x-3 ">
@@ -129,7 +115,7 @@ You can monitor the performance of every single member of your sales and custome
                         href="#"
                         className=" px-3 py-1  bg-white rounded hover:text-primary"
                       >
-                        Business
+                        Community
                       </a>
                     </li>
                     <li>
@@ -137,7 +123,7 @@ You can monitor the performance of every single member of your sales and custome
                         href="#"
                         className=" px-3 py-1  bg-white rounded hover:text-primary"
                       >
-                        Education
+                        Sales
                       </a>
                     </li>
                     <li>
@@ -145,7 +131,7 @@ You can monitor the performance of every single member of your sales and custome
                         href="#"
                         className=" px-3 py-1  bg-white rounded hover:text-primary"
                       >
-                        Design
+                        WhatsApp
                       </a>
                     </li>
                   </ul>
@@ -162,7 +148,7 @@ You can monitor the performance of every single member of your sales and custome
                   </ul>
                 </div>
 
-                <div className="grid xl:grid-cols-2 grid-cols-1  gap-[30px] md:mt-14 mt-8">
+                {/* <div className="grid xl:grid-cols-2 grid-cols-1  gap-[30px] md:mt-14 mt-8">
                   <a
                     className=" flex space-x-4 shadow-box7 rounded p-5 bg-white"
                     href="#"
@@ -208,11 +194,11 @@ You can monitor the performance of every single member of your sales and custome
                       </div>
                     </div>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
 
-            <div className=" mt-14">
+            {/* <div className=" mt-14">
               <h3 className=" mb-6">3 Comments</h3>
               <ul className="comments space-y-4">
                 <li className="block border-b border-[#ECECEC] pb-6 mt-6 last:border-0 last:pb-0">
@@ -341,7 +327,7 @@ You can monitor the performance of every single member of your sales and custome
                   </div>
                 </li>
               </ul>
-            </div>
+            </div> */}
             <div className=" mt-14">
               <h3 className=" mb-4">Leave A Reply</h3>
               <div>
@@ -371,88 +357,88 @@ You can monitor the performance of every single member of your sales and custome
                 </div>
               </div>
               <div className="wdiget widget_catagory">
-                <h4 className="widget-title">Categories</h4>
+                  <h4 className="widget-title">Categories</h4>
 
-                <ul className=" list-item space-y-4">
-                  <li className=" block">
-                    <a
-                      href="#"
-                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                  <ul className=" list-item space-y-4">
+                    <li className=" block">
+                      <a
+                        href="#"
+                        className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
-                    >
-                      <span>Development (23)</span>
-                      <span className=" text-2xl">
-                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
-                      </span>
-                    </a>
-                  </li>
+                      >
+                        <span>Case Studies (23)</span>
+                        <span class="text-2xl">
+                          <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                        </span>
+                      </a>
+                    </li>
 
-                  <li className=" block">
-                    <a
-                      href="#"
-                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                    <li className=" block">
+                      <a
+                        href="#"
+                        className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
-                    >
-                      <span>Art &amp; Design (45)</span>
-                      <span className=" text-2xl">
-                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
-                      </span>
-                    </a>
-                  </li>
+                      >
+                        <span>Sales &amp; Marketing (45)</span>
+                        <span class="text-2xl">
+                          <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                        </span>
+                      </a>
+                    </li>
 
-                  <li className=" block">
-                    <a
-                      href="#"
-                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                    <li className=" block">
+                      <a
+                        href="#"
+                        className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
-                    >
-                      <span>Data Science (14)</span>
-                      <span className=" text-2xl">
-                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
-                      </span>
-                    </a>
-                  </li>
+                      >
+                        <span>Real State (14)</span>
+                        <span class="text-2xl">
+                          <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                        </span>
+                      </a>
+                    </li>
 
-                  <li className=" block">
-                    <a
-                      href="#"
-                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                    <li className=" block">
+                      <a
+                        href="#"
+                        className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
-                    >
-                      <span>Data Science (14)</span>
-                      <span className=" text-2xl">
-                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
-                      </span>
-                    </a>
-                  </li>
+                      >
+                        <span>Features (14)</span>
+                        <span class="text-2xl">
+                          <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                        </span>
+                      </a>
+                    </li>
 
-                  <li className=" block">
-                    <a
-                      href="#"
-                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                    <li className=" block">
+                      <a
+                        href="#"
+                        className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
-                    >
-                      <span>Technology (28)</span>
-                      <span className=" text-2xl">
-                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
-                      </span>
-                    </a>
-                  </li>
+                      >
+                        <span>Start Up (28)</span>
+                        <span class="text-2xl">
+                          <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                        </span>
+                      </a>
+                    </li>
 
-                  <li className=" block">
-                    <a
-                      href="#"
-                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                    <li className=" block">
+                      <a
+                        href="#"
+                        className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
-                    >
-                      <span>It Management (34)</span>
-                      <span className=" text-2xl">
-                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+                      >
+                        <span>Education (34)</span>
+                        <span class="text-2xl">
+                          <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               {/* <div className="wdiget widget-recent-post">
                 <h4 className=" widget-title">Related Courses</h4>
                 <ul className="list">
@@ -515,92 +501,91 @@ You can monitor the performance of every single member of your sales and custome
                   </li>
                 </ul>
               </div> */}
-              <div className="wdiget">
-                <h4 className="widget-title">Popular Tags</h4>
-                <ul className="flex flex-wrap">
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Business
-                    </a>
-                  </li>
+               <div className="wdiget">
+                  <h4 className="widget-title">Popular Tags</h4>
+                  <ul className="flex flex-wrap">
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Business
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Education
-                    </a>
-                  </li>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Education
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Design
-                    </a>
-                  </li>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Start Up
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Students
-                    </a>
-                  </li>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Virtual Assistance
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Teachers
-                    </a>
-                  </li>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Crm
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      classNameroom
-                    </a>
-                  </li>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Community
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Online
-                    </a>
-                  </li>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Tele Calling
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      e-Learning
-                    </a>
-                  </li>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        e-Learning
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text- 
-                        white"
-                    >
-                      Book
-                    </a>
-                  </li>
-                </ul>
-              </div>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Make Money
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               <div className="wdiget">
                 <h4 className="widget-title">Instagram Feed</h4>
                 <div className="grid grid-cols-3 gap-4">
@@ -644,4 +629,4 @@ You can monitor the performance of every single member of your sales and custome
   );
 };
 
-export default BlogPost;
+export default Blog3;

@@ -123,7 +123,7 @@ const Header = () => {
                       <a href="#">Blog</a>
                       <ul className="sub-menu">
                         <li>
-                          <Link to={"/blog-standard"}>
+                          <Link to={"/blogs"}>
                             Blog Standard
                           </Link>
                         </li>
@@ -144,13 +144,13 @@ const Header = () => {
                             About Us
                           </Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link to={"/courses"}>
                             Courses
                           </Link>
-                        </li>
+                        </li> */}
                         <li>
-                          <Link to={"/blog-standard"}>
+                          <Link to={"/blogs"}>
                             Blog
                           </Link>
                         </li>

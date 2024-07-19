@@ -176,7 +176,7 @@ const HomeTwoHeader = () => {
                       <a href="#">Blog</a>
                       <ul className="sub-menu">
                         <li>
-                          <Link to={"//blog-standard"}>
+                          <Link to={"//blogs"}>
                             Blog Standard
                           </Link>
                         </li>
@@ -203,7 +203,7 @@ const HomeTwoHeader = () => {
                           </Link>
                         </li> */}
                         <li>
-                          <Link to={"/blog-standard"}>
+                          <Link to={"/blogs"}>
                             Blog
                           </Link>
                         </li>

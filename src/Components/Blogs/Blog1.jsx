@@ -2,38 +2,31 @@
 import React from "react";
 import {
   // bs1,
-  bs2,
-  bs3,
   user3,
-  comment,
-  q,
   calender,
   clockIcon,
   fbIcon,
   pnIcon,
   twIcon,
   insIcon,
-  rc3,
-  rc1,
-  insIcon1,
-  insIcon3,
-  insIcon2,
   search,
   // rc2,
   // insIcon4,
   // insIcon5,
   // insIcon6,
-} from "../constant/images";
-import about3 from "../assets/images/landing_page6.jpg";
-import about4 from "../assets/images/landing_page1.webp";
-import about5 from "../assets/images/landing_page2.avif";
-import about6 from "../assets/images/tech.jpg";
-import about7 from '../assets/images/beprep.png';
-import about8 from '../assets/images/landing_page3.webp';
-import ContactForm from "./ContactForm";
-import mt2 from '../assets/images/crm1.webp';
+} from "../../constant/images";
+import about3 from "../../assets/images/landing_page6.jpg";
+import about4 from "../../assets/images/landing_page1.webp";
+import about5 from "../../assets/images/landing_page2.avif";
+import about6 from "../../assets/images/tech.jpg";
+import about7 from '../../assets/images/beprep.png';
+import about8 from '../../assets/images/landing_page3.webp';
+import ContactForm from "../ContactForm";
+import mt2 from '../../assets/images/crm1.webp';
+import mt3 from '../../assets/images/telesales_management.webp';
+import mt4 from '../../assets/images/campaign_tracking.webp';
 
-const BlogPost = () => {
+const Blog1 = () => {
   return (
     <div className="nav-tab-wrapper tabs  section-padding">
       <div className="container">
@@ -55,10 +48,10 @@ const BlogPost = () => {
                     <img src={clockIcon} alt="" />
                     <span>5 Min Read</span>
                   </a>
-                  <a className=" flex items-center space-x-2" href="#">
+                  {/* <a className=" flex items-center space-x-2" href="#">
                     <img src={comment} alt="" />
                     <span>02 Comments</span>
-                  </a>
+                  </a> */}
                 </div>
                 <h3>
                 A 5-Minute Guide on Operational CRM You Need to Know in 2024
@@ -74,7 +67,8 @@ It stores lead and customer data in a single system, enabling easy access for yo
 
 You can monitor the performance of every single member of your sales and customer support teams from a single dashboard
                 </p>
-                <blockquote className=" bg-secondary p-8 rounded-md bg-[url('../images/all-img/bb.png')] bg-cover bg-no-repeat bg-center my-8 text-white">
+                <br />
+                {/* <blockquote className=" bg-secondary p-8 rounded-md bg-[url('../images/all-img/bb.png')] bg-cover bg-no-repeat bg-center my-8 text-white">
                   <img src={q} alt="" />
                   <div className=" text-xl font-semibold my-6">
                     “ Education is one of the most powerful aspects of life.
@@ -88,38 +82,35 @@ You can monitor the performance of every single member of your sales and custome
                       Rosalina D. Jackson
                     </span>
                   </div>
-                </blockquote>
-                <p>
+                </blockquote> */}
+                {/* <p>
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some
                   form, by injected humour, or randomised words which don’t look
                   even slightly believable. As students across the globe
                   continue to see their learning plans significantly.
-                </p>
+                </p> */}
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-[30px] my-8">
-                  <img src={bs2} alt="" />
-                  <img src={bs3} alt="" />
+                  <img src={mt3} alt="" />
+                  <img src={mt4} alt="" />
                 </div>
                 <h4 className="text-2xl mb-4">
-                  Education Is About Academic Excellence And Cultural Diversity
-                  Learning Community
+                Which business functions can be streamlined by operational CRMs?
                 </h4>
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don’t look
-                  even slightly believable.
+Sales is the backbone of any business, be it B2B or B2C. Your sales agents need to be on top of their game so that your sales numbers keep improving every quarter. And this is only possible if agents can augment their productivity with the latest tools and technologies. 
+
+With operational CRM, you can efficiently automate all your sales operations, from sending follow-up messages to setting call reminders and addressing customer queries. This level of automation ensures you never miss out on any potential business opportunities.
                 </p>
                 <ul className="list-disc marker:text-secondary space-y-4 mt-6">
                   <li className="">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Lead management and distribution
                   </li>
+                  <p>Managing leads is still quite a challenge for most businesses. You get leads from various sources — Google Ads, your website, Facebook ads and so on. Ideally, you would want all these leads collected in one place so you can easily share them with your team. But often they end up getting captured in multiple spreadsheets. Then you have to hand them off to your team members manually, making the whole process of assigning leads a nightmare. With an operational CRM, however, you can easily assign your most important leads to your preferred team members.</p>
                   <li className="">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Telesales management
                   </li>
-                  <li className="">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
+                  <p>Your sales team interacts with tens, if not hundreds, of leads every day, follows up with them diligently and even handles customer queries without batting an eye. But this process is quite exhaustive, as agents have to constantly juggle between Excel or Google Sheets to fetch the contact information of leads. But with an operational CRM, your agents don’t have to face these hurdles as the software optimises the process through automation, reducing the manual work done by your team. </p>
                 </ul>
                 <div className="grid xl:grid-cols-2 grid-cols-1  gap-5 md:mt-14 mt-8 ">
                   <ul className="flex items-center space-x-3 ">
@@ -137,7 +128,7 @@ You can monitor the performance of every single member of your sales and custome
                         href="#"
                         className=" px-3 py-1  bg-white rounded hover:text-primary"
                       >
-                        Education
+                        Sales
                       </a>
                     </li>
                     <li>
@@ -145,7 +136,7 @@ You can monitor the performance of every single member of your sales and custome
                         href="#"
                         className=" px-3 py-1  bg-white rounded hover:text-primary"
                       >
-                        Design
+                        Marketing
                       </a>
                     </li>
                   </ul>
@@ -162,7 +153,7 @@ You can monitor the performance of every single member of your sales and custome
                   </ul>
                 </div>
 
-                <div className="grid xl:grid-cols-2 grid-cols-1  gap-[30px] md:mt-14 mt-8">
+                {/* <div className="grid xl:grid-cols-2 grid-cols-1  gap-[30px] md:mt-14 mt-8">
                   <a
                     className=" flex space-x-4 shadow-box7 rounded p-5 bg-white"
                     href="#"
@@ -208,11 +199,11 @@ You can monitor the performance of every single member of your sales and custome
                       </div>
                     </div>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
 
-            <div className=" mt-14">
+            {/* <div className=" mt-14">
               <h3 className=" mb-6">3 Comments</h3>
               <ul className="comments space-y-4">
                 <li className="block border-b border-[#ECECEC] pb-6 mt-6 last:border-0 last:pb-0">
@@ -341,7 +332,7 @@ You can monitor the performance of every single member of your sales and custome
                   </div>
                 </li>
               </ul>
-            </div>
+            </div> */}
             <div className=" mt-14">
               <h3 className=" mb-4">Leave A Reply</h3>
               <div>
@@ -371,88 +362,88 @@ You can monitor the performance of every single member of your sales and custome
                 </div>
               </div>
               <div className="wdiget widget_catagory">
-                <h4 className="widget-title">Categories</h4>
+                  <h4 className="widget-title">Categories</h4>
 
-                <ul className=" list-item space-y-4">
-                  <li className=" block">
-                    <a
-                      href="#"
-                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                  <ul className=" list-item space-y-4">
+                    <li className=" block">
+                      <a
+                        href="#"
+                        className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
-                    >
-                      <span>Development (23)</span>
-                      <span className=" text-2xl">
-                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
-                      </span>
-                    </a>
-                  </li>
+                      >
+                        <span>Case Studies (23)</span>
+                        <span class="text-2xl">
+                          <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                        </span>
+                      </a>
+                    </li>
 
-                  <li className=" block">
-                    <a
-                      href="#"
-                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                    <li className=" block">
+                      <a
+                        href="#"
+                        className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
-                    >
-                      <span>Art &amp; Design (45)</span>
-                      <span className=" text-2xl">
-                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
-                      </span>
-                    </a>
-                  </li>
+                      >
+                        <span>Sales &amp; Marketing (45)</span>
+                        <span class="text-2xl">
+                          <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                        </span>
+                      </a>
+                    </li>
 
-                  <li className=" block">
-                    <a
-                      href="#"
-                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                    <li className=" block">
+                      <a
+                        href="#"
+                        className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
-                    >
-                      <span>Data Science (14)</span>
-                      <span className=" text-2xl">
-                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
-                      </span>
-                    </a>
-                  </li>
+                      >
+                        <span>Real State (14)</span>
+                        <span class="text-2xl">
+                          <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                        </span>
+                      </a>
+                    </li>
 
-                  <li className=" block">
-                    <a
-                      href="#"
-                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                    <li className=" block">
+                      <a
+                        href="#"
+                        className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
-                    >
-                      <span>Data Science (14)</span>
-                      <span className=" text-2xl">
-                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
-                      </span>
-                    </a>
-                  </li>
+                      >
+                        <span>Features (14)</span>
+                        <span class="text-2xl">
+                          <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                        </span>
+                      </a>
+                    </li>
 
-                  <li className=" block">
-                    <a
-                      href="#"
-                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                    <li className=" block">
+                      <a
+                        href="#"
+                        className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
-                    >
-                      <span>Technology (28)</span>
-                      <span className=" text-2xl">
-                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
-                      </span>
-                    </a>
-                  </li>
+                      >
+                        <span>Start Up (28)</span>
+                        <span class="text-2xl">
+                          <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                        </span>
+                      </a>
+                    </li>
 
-                  <li className=" block">
-                    <a
-                      href="#"
-                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                    <li className=" block">
+                      <a
+                        href="#"
+                        className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
-                    >
-                      <span>It Management (34)</span>
-                      <span className=" text-2xl">
-                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+                      >
+                        <span>Education (34)</span>
+                        <span class="text-2xl">
+                          <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               {/* <div className="wdiget widget-recent-post">
                 <h4 className=" widget-title">Related Courses</h4>
                 <ul className="list">
@@ -515,92 +506,91 @@ You can monitor the performance of every single member of your sales and custome
                   </li>
                 </ul>
               </div> */}
-              <div className="wdiget">
-                <h4 className="widget-title">Popular Tags</h4>
-                <ul className="flex flex-wrap">
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Business
-                    </a>
-                  </li>
+               <div className="wdiget">
+                  <h4 className="widget-title">Popular Tags</h4>
+                  <ul className="flex flex-wrap">
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Business
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Education
-                    </a>
-                  </li>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Education
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Design
-                    </a>
-                  </li>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Start Up
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Students
-                    </a>
-                  </li>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Virtual Assistance
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Teachers
-                    </a>
-                  </li>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Crm
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      classNameroom
-                    </a>
-                  </li>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Community
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Online
-                    </a>
-                  </li>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Tele Calling
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      e-Learning
-                    </a>
-                  </li>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        e-Learning
+                      </a>
+                    </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text- 
-                        white"
-                    >
-                      Book
-                    </a>
-                  </li>
-                </ul>
-              </div>
+                    <li className="mr-2 mb-2">
+                      <a
+                        href="#"
+                        className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                      >
+                        Make Money
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               <div className="wdiget">
                 <h4 className="widget-title">Instagram Feed</h4>
                 <div className="grid grid-cols-3 gap-4">
@@ -644,4 +634,4 @@ You can monitor the performance of every single member of your sales and custome
   );
 };
 
-export default BlogPost;
+export default Blog1;

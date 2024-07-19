@@ -4,13 +4,13 @@ import ContactForm from "../ContactForm";
 // import Footer from "../Footer";
 import Footer from "../HomeTwoComponents/Footer";
 import Header from "../Header";
-import PageBanner from "../PageBanner";
+// import PageBanner from "../PageBanner";
 
 const ContactUs = () => {
   return (
     <>
       <Header />
-      <PageBanner title={"Contact Us"} pageName="Contact" />
+      {/* <PageBanner title={"Contact Us"} pageName="Contact" /> */}
       <div class="nav-tab-wrapper tabs  section-padding">
         <div class="container">
           <div class=" grid grid-cols-12 gap-[30px]">
