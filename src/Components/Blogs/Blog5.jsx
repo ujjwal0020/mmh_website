@@ -9,6 +9,7 @@ import {
   pnIcon,
   twIcon,
   insIcon,
+  
   search,
   // rc2,
   // insIcon4,
@@ -22,11 +23,11 @@ import about6 from "../../assets/images/tech.jpg";
 import about7 from '../../assets/images/beprep.png';
 import about8 from '../../assets/images/landing_page3.webp';
 import ContactForm from "../ContactForm";
-import mt2 from '../../assets/images/crm1.webp';
-import mt3 from '../../assets/images/telesales_management.webp';
-import mt4 from '../../assets/images/campaign_tracking.webp';
+import mt2 from '../../assets/images/myths.png';
+import mt3 from '../../assets/images/myths2.jpg';
+import mt4 from '../../assets/images/myths4.jpg';
 
-const Blog1 = () => {
+const Blog5 = () => {
   return (
     <div className="nav-tab-wrapper tabs  section-padding">
       <div className="container">
@@ -38,36 +39,24 @@ const Blog1 = () => {
                 <div className="flex  flex-wrap  xl:space-x-10 space-x-5 mt-6 mb-6">
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={user3} alt="" />
-                    <span>Fahad Abdullah</span>
+                    <span>Faradh Abdhullah</span>
                   </a>
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={calender} alt="" />
-                    <span> 17 May,24</span>
+                    <span> 15 July,21</span>
                   </a>
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={clockIcon} alt="" />
                     <span>5 Min Read</span>
                   </a>
-                  {/* <a className=" flex items-center space-x-2" href="#">
-                    <img src={comment} alt="" />
-                    <span>02 Comments</span>
-                  </a> */}
                 </div>
                 <h3>
-                A 5-Minute Guide on Operational CRM You Need to Know in 2024
+                MYTHS ABOUT VIRTUAL ASSISTANTS AND A GROUND REALITY PART 1
                 </h3>
                 <p className="mt-6">
-                An operational CRM (customer relationship management) system streamlines and automates your marketing, sales and customer service workflows; enhances the customer experience; and increases conversions by helping manage and analyse customer interactions.
-
-Popular operational CRM software like TeleCRM can help your business in multiple ways.
-
-Features like Autodialer, Leaderboard, WhatsApp bulk broadcasting, etc., help you streamline various business operations and reduce the workload of your team(s) significantly 
-
-It stores lead and customer data in a single system, enabling easy access for you and your team
-
-You can monitor the performance of every single member of your sales and customer support teams from a single dashboard
+                All of the industries and markets in the globe have a common factor – The Myth and the actual hidden Reality. We are discussing a few pointers and some of the most common myths associated with hiring a Virtual Assistant (VA). And comparing the services provided by 
+                Freelancers and the services provided by a professional company that hires human resources as VIRTUAL ASSISTANTS.
                 </p>
-                <br />
                 {/* <blockquote className=" bg-secondary p-8 rounded-md bg-[url('../images/all-img/bb.png')] bg-cover bg-no-repeat bg-center my-8 text-white">
                   <img src={q} alt="" />
                   <div className=" text-xl font-semibold my-6">
@@ -83,35 +72,36 @@ You can monitor the performance of every single member of your sales and custome
                     </span>
                   </div>
                 </blockquote> */}
-                {/* <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don’t look
-                  even slightly believable. As students across the globe
-                  continue to see their learning plans significantly.
-                </p> */}
+                <br />
+                <h3>
+                BUSINESS WHETHER IN STARTING STAGE OR IN A CELEBRATED SUCCESSFUL STAGE DON’T REQUIRE A VIRTUAL ASSISTANT.
+                </h3>
+                <p>
+                Some of the young Entrepreneurs (early or later stage) think that they don’t require a VIRTUAL ASSISTANT. But in reality, each business requires a VA/s at every stage. It’s understandable that as an early-stage entrepreneur you are multitasking because of scarce resources, or to save costs for your company. Multitasking may force you to lose your focus or feel stressed by ticking a long list of to-dos for administrative purposes whereas you should be focusing more on marketing and selling your brand or in even a worst-case scenario you may lose your grasp on filtering out the prioritizing tasks and ranking them according to the importance for the moment. This for sure is going to delay your growth and success. By hiring a VA, you may delegate the administrative task and be on track and focus on marketing and sales, you can at least tick off the admin work from your list. If you want to personally work on
+                 increasing your exposure and brand reach then focus on that your VA will take care of the other tasks.
+                </p>
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-[30px] my-8">
                   <img src={mt3} alt="" />
                   <img src={mt4} alt="" />
                 </div>
-                <h4 className="text-2xl mb-4">
-                Which business functions can be streamlined by operational CRMs?
-                </h4>
+                <h3 className="text-2xl mb-4">
+                ANYONE WITH AN INTERNET AND COMPUTER CAN BE A VIRTUAL ASSISTANT 
+                </h3>
                 <p>
-Sales is the backbone of any business, be it B2B or B2C. Your sales agents need to be on top of their game so that your sales numbers keep improving every quarter. And this is only possible if agents can augment their productivity with the latest tools and technologies. 
-
-With operational CRM, you can efficiently automate all your sales operations, from sending follow-up messages to setting call reminders and addressing customer queries. This level of automation ensures you never miss out on any potential business opportunities.
+                While many individuals are claiming to be Professional Virtual Assistants over the internet, the fact is not everyone can do justice to the tasks. It’s always easier said than done. A lot of them lack the skill to harness the whole output. It happens mostly with freelancers as it gets tough to find their credentials and prior work. But with a virtual service providing certified companies like ours we perform funneling of such persons and hire the right candidates and your prospect who will be verified by us for the needed skills and knowledge. Again, it is an advantage to go with a virtual service assistant providing company rather than working with some freelancer in uncertainty. Imagine another scenario where the Freelancer you hired is unable to fulfill the duties for a specific reason and leaves you in between without any notice. Your hiring and training cycle starts all over again. This is not the case with us. Here, our company is accountable for every task, and every VA that works for our client. We ensure the VA is appropriately taken care of, is motivated, and is getting the required training and an environment that keeps them going. In case he/she happens to quit for any reason, 
+                it happens with proper notice and we provide the replacement at no cost. Isn’t that great?
                 </p>
-                <ul className="list-disc marker:text-secondary space-y-4 mt-6">
+                {/* <ul className="list-disc marker:text-secondary space-y-4 mt-6">
                   <li className="">
-                  Lead management and distribution
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </li>
-                  <p>Managing leads is still quite a challenge for most businesses. You get leads from various sources — Google Ads, your website, Facebook ads and so on. Ideally, you would want all these leads collected in one place so you can easily share them with your team. But often they end up getting captured in multiple spreadsheets. Then you have to hand them off to your team members manually, making the whole process of assigning leads a nightmare. With an operational CRM, however, you can easily assign your most important leads to your preferred team members.</p>
                   <li className="">
-                  Telesales management
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </li>
-                  <p>Your sales team interacts with tens, if not hundreds, of leads every day, follows up with them diligently and even handles customer queries without batting an eye. But this process is quite exhaustive, as agents have to constantly juggle between Excel or Google Sheets to fetch the contact information of leads. But with an operational CRM, your agents don’t have to face these hurdles as the software optimises the process through automation, reducing the manual work done by your team. </p>
-                </ul>
+                  <li className="">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </li>
+                </ul> */}
                 <div className="grid xl:grid-cols-2 grid-cols-1  gap-5 md:mt-14 mt-8 ">
                   <ul className="flex items-center space-x-3 ">
                     <li className=" text-black font-semibold">Tags:</li>
@@ -120,7 +110,7 @@ With operational CRM, you can efficiently automate all your sales operations, fr
                         href="#"
                         className=" px-3 py-1  bg-white rounded hover:text-primary"
                       >
-                        Business
+                        Myths
                       </a>
                     </li>
                     <li>
@@ -128,17 +118,17 @@ With operational CRM, you can efficiently automate all your sales operations, fr
                         href="#"
                         className=" px-3 py-1  bg-white rounded hover:text-primary"
                       >
-                        Sales
+                        Virtual Assistance
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="#"
                         className=" px-3 py-1  bg-white rounded hover:text-primary"
                       >
-                        Marketing
+                        Design
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                   <ul className="flex space-x-3 xl:justify-end items-center  ">
                     <li className=" text-black font-semibold">Share On:</li>
@@ -361,6 +351,89 @@ With operational CRM, you can efficiently automate all your sales operations, fr
                   </div>
                 </div>
               </div>
+              {/* <div className="wdiget widget_catagory">
+                <h4 className="widget-title">Categories</h4>
+
+                <ul className=" list-item space-y-4">
+                  <li className=" block">
+                    <a
+                      href="#"
+                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                        duration-150"
+                    >
+                      <span>Development (23)</span>
+                      <span className=" text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li className=" block">
+                    <a
+                      href="#"
+                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                        duration-150"
+                    >
+                      <span>Art &amp; Design (45)</span>
+                      <span className=" text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li className=" block">
+                    <a
+                      href="#"
+                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                        duration-150"
+                    >
+                      <span>Data Science (14)</span>
+                      <span className=" text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li className=" block">
+                    <a
+                      href="#"
+                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                        duration-150"
+                    >
+                      <span>Data Science (14)</span>
+                      <span className=" text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li className=" block">
+                    <a
+                      href="#"
+                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                        duration-150"
+                    >
+                      <span>Technology (28)</span>
+                      <span className=" text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li className=" block">
+                    <a
+                      href="#"
+                      className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
+                        duration-150"
+                    >
+                      <span>It Management (34)</span>
+                      <span className=" text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div> */}
               <div className="wdiget widget_catagory">
                   <h4 className="widget-title">Categories</h4>
 
@@ -634,4 +707,4 @@ With operational CRM, you can efficiently automate all your sales operations, fr
   );
 };
 
-export default Blog1;
+export default Blog5;

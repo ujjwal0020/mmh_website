@@ -2,6 +2,7 @@
 import React from "react";
 import {
   // bs1,
+
   user3,
   calender,
   clockIcon,
@@ -22,11 +23,11 @@ import about6 from "../../assets/images/tech.jpg";
 import about7 from '../../assets/images/beprep.png';
 import about8 from '../../assets/images/landing_page3.webp';
 import ContactForm from "../ContactForm";
-import mt2 from '../../assets/images/crm1.webp';
-import mt3 from '../../assets/images/telesales_management.webp';
-import mt4 from '../../assets/images/campaign_tracking.webp';
+import mt2 from "../../assets/images/tech.jpg";
+// import mt3 from '../../assets/images/tsk.png';
 
-const Blog1 = () => {
+
+const Blog4 = () => {
   return (
     <div className="nav-tab-wrapper tabs  section-padding">
       <div className="container">
@@ -42,32 +43,21 @@ const Blog1 = () => {
                   </a>
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={calender} alt="" />
-                    <span> 17 May,24</span>
+                    <span> 11 July,21</span>
                   </a>
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={clockIcon} alt="" />
                     <span>5 Min Read</span>
                   </a>
-                  {/* <a className=" flex items-center space-x-2" href="#">
-                    <img src={comment} alt="" />
-                    <span>02 Comments</span>
-                  </a> */}
                 </div>
                 <h3>
-                A 5-Minute Guide on Operational CRM You Need to Know in 2024
+                Indian Virtual Assistant’s Not So Virtual After All
                 </h3>
                 <p className="mt-6">
-                An operational CRM (customer relationship management) system streamlines and automates your marketing, sales and customer service workflows; enhances the customer experience; and increases conversions by helping manage and analyse customer interactions.
-
-Popular operational CRM software like TeleCRM can help your business in multiple ways.
-
-Features like Autodialer, Leaderboard, WhatsApp bulk broadcasting, etc., help you streamline various business operations and reduce the workload of your team(s) significantly 
-
-It stores lead and customer data in a single system, enabling easy access for you and your team
-
-You can monitor the performance of every single member of your sales and customer support teams from a single dashboard
+                The term VIRTUAL is mostly used to distinguish something which is just conceptualized from something absolute physical in reality.
+                When this term gets applied to remote workers it takes a form of a new term ‘Virtual Assistants’, ‘Virtual Secretaries’. With the birth of the world wide web and dot coms, it is possible for each and everyone who has access to it. To work, share, collaborate and work as a team on any ideas from any corner of the world. Nowadays the world seems smaller in front of ever-growing technology. It has enabled us to talk, meet & connect on the go. We can have a talk on the phone, communicate via email, attend meets, and conferences via video calling around the globe. Due to technology, it feels so real that the term Virtual Assistants is actually losing its virtuality because it is happening in real-time, real space, communication taking place between real persons 
+                like we used to discuss in an office but just the cubicles missing or we can say, getting redefined.
                 </p>
-                <br />
                 {/* <blockquote className=" bg-secondary p-8 rounded-md bg-[url('../images/all-img/bb.png')] bg-cover bg-no-repeat bg-center my-8 text-white">
                   <img src={q} alt="" />
                   <div className=" text-xl font-semibold my-6">
@@ -83,35 +73,36 @@ You can monitor the performance of every single member of your sales and custome
                     </span>
                   </div>
                 </blockquote> */}
+                <br />
                 {/* <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don’t look
-                  even slightly believable. As students across the globe
-                  continue to see their learning plans significantly.
+                Well to answer this question it began in the era of the dot com boom. India became a frontline for outsourcings. 
+                Various MNC set up their contact centers in India to support their various needs. 
                 </p> */}
-                <div className="grid md:grid-cols-2 grid-cols-1 gap-[30px] my-8">
-                  <img src={mt3} alt="" />
-                  <img src={mt4} alt="" />
-                </div>
+                {/* <div className="grid md:grid-cols-2 grid-cols-1 gap-[30px] my-8">
+                  <img src={bs2} alt="" />
+                  <img src={} alt="" />
+                </div> */}
                 <h4 className="text-2xl mb-4">
-                Which business functions can be streamlined by operational CRMs?
+                Well to answer this question it began in the era of the dot com boom. India became a frontline for outsourcings. 
+                Various MNC set up their contact centers in India to support their various needs. 
                 </h4>
                 <p>
-Sales is the backbone of any business, be it B2B or B2C. Your sales agents need to be on top of their game so that your sales numbers keep improving every quarter. And this is only possible if agents can augment their productivity with the latest tools and technologies. 
+                Trainers from overseas would charge huge money to train the Indian staff to get accustomed to the accent, customs, lifestyle, and thought process of their clients.
 
-With operational CRM, you can efficiently automate all your sales operations, from sending follow-up messages to setting call reminders and addressing customer queries. This level of automation ensures you never miss out on any potential business opportunities.
+The reason they chose Indian then and are choosing India even now is that the difference in labor rates was and is still lucrative in comparison to the US market. Apart from these, there were few more reasons like in India the staff they could hire is educated, are tech-savvy, good with computers and well versed with the tools to upscale the use of the same. They are hardworking, willing to learn, and are quick to adapt to the culture. The lack was the accent which can be tackled with training as English has been a second language. As schools start English lessons as early as pre-school though it has not been a success it’s on an acceptable standard. As this information got a pass on to mid to small-level businesses, they started trying their hands on hiring the services and to gain an advantage of hiring the required skill 
+set have a cheaper workforce. And expanding the business by hiring them as small teams.
                 </p>
-                <ul className="list-disc marker:text-secondary space-y-4 mt-6">
+                {/* <ul className="list-disc marker:text-secondary space-y-4 mt-6">
                   <li className="">
-                  Lead management and distribution
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </li>
-                  <p>Managing leads is still quite a challenge for most businesses. You get leads from various sources — Google Ads, your website, Facebook ads and so on. Ideally, you would want all these leads collected in one place so you can easily share them with your team. But often they end up getting captured in multiple spreadsheets. Then you have to hand them off to your team members manually, making the whole process of assigning leads a nightmare. With an operational CRM, however, you can easily assign your most important leads to your preferred team members.</p>
                   <li className="">
-                  Telesales management
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </li>
-                  <p>Your sales team interacts with tens, if not hundreds, of leads every day, follows up with them diligently and even handles customer queries without batting an eye. But this process is quite exhaustive, as agents have to constantly juggle between Excel or Google Sheets to fetch the contact information of leads. But with an operational CRM, your agents don’t have to face these hurdles as the software optimises the process through automation, reducing the manual work done by your team. </p>
-                </ul>
+                  <li className="">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </li>
+                </ul> */}
                 <div className="grid xl:grid-cols-2 grid-cols-1  gap-5 md:mt-14 mt-8 ">
                   <ul className="flex items-center space-x-3 ">
                     <li className=" text-black font-semibold">Tags:</li>
@@ -120,7 +111,7 @@ With operational CRM, you can efficiently automate all your sales operations, fr
                         href="#"
                         className=" px-3 py-1  bg-white rounded hover:text-primary"
                       >
-                        Business
+                        Assistance
                       </a>
                     </li>
                     <li>
@@ -128,17 +119,17 @@ With operational CRM, you can efficiently automate all your sales operations, fr
                         href="#"
                         className=" px-3 py-1  bg-white rounded hover:text-primary"
                       >
-                        Sales
+                        Virtual Assistance
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="#"
                         className=" px-3 py-1  bg-white rounded hover:text-primary"
                       >
-                        Marketing
+                      Tele Calling
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                   <ul className="flex space-x-3 xl:justify-end items-center  ">
                     <li className=" text-black font-semibold">Share On:</li>
@@ -506,7 +497,7 @@ With operational CRM, you can efficiently automate all your sales operations, fr
                   </li>
                 </ul>
               </div> */}
-               <div className="wdiget">
+              <div className="wdiget">
                   <h4 className="widget-title">Popular Tags</h4>
                   <ul className="flex flex-wrap">
                     <li className="mr-2 mb-2">
@@ -634,4 +625,4 @@ With operational CRM, you can efficiently automate all your sales operations, fr
   );
 };
 
-export default Blog1;
+export default Blog4;

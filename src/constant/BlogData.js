@@ -6,7 +6,7 @@ import {
   bThumb1,
   bThumb2,
   // bThumb3,
-  calender,
+  // calender,
   // insIcon1,
   // insIcon2,
   // insIcon3,
@@ -16,7 +16,7 @@ import {
   // rc1,
   // rc2,
   // rc3,
-  search,
+  // search,
 } from "../constant/images";
 export const BlogData = [
   {
@@ -37,8 +37,7 @@ export const BlogData = [
   },
   {
     image: mt,
-    title:
-      "Setup WhatsApp Community in 4 Clicks (With Tips for High Engagement)",
+    title: "Setup WhatsApp Community in 4 Clicks (With Tips for High Engagement)",
     to: "Setup_WhatsApp_Community_in_4_Clicks_(With_Tips_for_High_Engagement)",
 
     content:
@@ -47,7 +46,8 @@ export const BlogData = [
   },
   {
     image: bThumb1,
-    title: "Indian Virtual Assistant’s not so virtual after all",
+    title: "Indian Virtual Assistant’s Not So Virtual After All",
+    to: "Indian_Virtual_Assistant’s_Not_So_Virtual_After_All",
     content: `When this term gets applied to remote workers it takes a form of a new term ‘Virtual Assistants’, 
               ‘Virtual Secretaries’. With the birth of the world wide web and dot coms, it is possible for each 
               and everyone who has access to it. To work, share, collaborate and work as a team on any ideas from 
@@ -61,13 +61,15 @@ export const BlogData = [
   {
     image: bThumb2,
     title: "MYTHS ABOUT VIRTUAL ASSISTANTS AND A GROUND REALITY",
+    to: "MYTHS_ABOUT_VIRTUAL_ASSISTANTS_AND_A_GROUND_REALITY",
     content:
       "All of the industries and markets in the globe have a common factor – The Myth and the actual hidden Reality. We are discussing a few pointers and some of the most common myths associated with hiring a Virtual Assistant (VA).And comparing the services provided by Freelancers and the services provided by a professional company that hires human resources as VIRTUAL ASSISTANTS.",
     date: "15 July, 21",
   },
   {
     image: mt3,
-    title: "Here is why your Business/Start-up is guaranteed to fail!",
+    title: "Here Is Why Your Business/Start-Up Is Guaranteed To Fail!",
+    to: "Here_Is_Why_Your_Business_Start-Up_Is_Guaranteed_To_Fail!",
     content:
       "Starting a business or a startup is an exciting venture, but it's fraught with challenges that can lead to failure if not addressed. One of the most critical reasons businesses fail is the lack of a clear value proposition. Without a unique selling point, your business will struggle to stand out in a crowded market. Additionally, poor financial management and inadequate funding can cripple your startup before it even gets off the ground. A failure to understand your target market and adapt to their needs can also spell disaster. Lastly, ineffective leadership and the inability to build a cohesive team can lead to internal conflicts and a lack of direction, ultimately causing your business to fail. Understanding and mitigating these risks is crucial for any startup's success.",
     date: "07 September, 19",

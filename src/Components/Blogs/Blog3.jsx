@@ -22,11 +22,11 @@ import about6 from "../../assets/images/tech.jpg";
 import about7 from '../../assets/images/beprep.png';
 import about8 from '../../assets/images/landing_page3.webp';
 import ContactForm from "../ContactForm";
-import mt2 from '../../assets/images/crm1.webp';
-import mt3 from '../../assets/images/telesales_management.webp';
-import mt4 from '../../assets/images/campaign_tracking.webp';
+import mt2 from '../../assets/images/whatsapp.webp';
+import mt3 from '../../assets/images/whatsapp_community.webp';
+import mt4 from '../../assets/images/whatsapp_comp.webp';
 
-const Blog1 = () => {
+const Blog3 = () => {
   return (
     <div className="nav-tab-wrapper tabs  section-padding">
       <div className="container">
@@ -38,11 +38,11 @@ const Blog1 = () => {
                 <div className="flex  flex-wrap  xl:space-x-10 space-x-5 mt-6 mb-6">
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={user3} alt="" />
-                    <span>Fahad Abdullah</span>
+                    <span>Faradh Abdhullah</span>
                   </a>
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={calender} alt="" />
-                    <span> 17 May,24</span>
+                    <span> 1 March,24</span>
                   </a>
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={clockIcon} alt="" />
@@ -54,20 +54,13 @@ const Blog1 = () => {
                   </a> */}
                 </div>
                 <h3>
-                A 5-Minute Guide on Operational CRM You Need to Know in 2024
+                Setup WhatsApp Community in 4 Clicks (With Tips for High Engagement)
                 </h3>
                 <p className="mt-6">
-                An operational CRM (customer relationship management) system streamlines and automates your marketing, sales and customer service workflows; enhances the customer experience; and increases conversions by helping manage and analyse customer interactions.
+                WhatsApp Community or WhatsApp Community group is basically an upgrade to the existing group chat feature on the app that allows you to manage and communicate with multiple groups under a single umbrella. It’s like having a dedicated space where all your customer groups can come together, without the clutter and limitations of traditional group chats.
 
-Popular operational CRM software like TeleCRM can help your business in multiple ways.
-
-Features like Autodialer, Leaderboard, WhatsApp bulk broadcasting, etc., help you streamline various business operations and reduce the workload of your team(s) significantly 
-
-It stores lead and customer data in a single system, enabling easy access for you and your team
-
-You can monitor the performance of every single member of your sales and customer support teams from a single dashboard
+Imagine being able to send a message that can reach different WhatsApp groups without having to post it individually in each group. That’s the convenience WhatsApp Community offers, making it an invaluable tool for anyone looking to maintain and send bulk messages without any hassle.
                 </p>
-                <br />
                 {/* <blockquote className=" bg-secondary p-8 rounded-md bg-[url('../images/all-img/bb.png')] bg-cover bg-no-repeat bg-center my-8 text-white">
                   <img src={q} alt="" />
                   <div className=" text-xl font-semibold my-6">
@@ -83,34 +76,36 @@ You can monitor the performance of every single member of your sales and custome
                     </span>
                   </div>
                 </blockquote> */}
-                {/* <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don’t look
-                  even slightly believable. As students across the globe
-                  continue to see their learning plans significantly.
-                </p> */}
+                <br />
+                <h3>What is the use of community in WhatsApp?</h3>
+                <p>
+                WhatsApp Community was launched on November 3, 2022, to allow users to bring multiple groups under one centralized space. This feature is a great value add for organisations, clubs, societies, social media influencers and even celebrities looking to share quick updates with their members or followers.
+                </p>
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-[30px] my-8">
                   <img src={mt3} alt="" />
                   <img src={mt4} alt="" />
                 </div>
                 <h4 className="text-2xl mb-4">
-                Which business functions can be streamlined by operational CRMs?
+                Useful WhatsApp community features
                 </h4>
                 <p>
-Sales is the backbone of any business, be it B2B or B2C. Your sales agents need to be on top of their game so that your sales numbers keep improving every quarter. And this is only possible if agents can augment their productivity with the latest tools and technologies. 
-
-With operational CRM, you can efficiently automate all your sales operations, from sending follow-up messages to setting call reminders and addressing customer queries. This level of automation ensures you never miss out on any potential business opportunities.
+                WhatsApp Community is itself a feature that helps you streamline multiple operations of your business that otherwise would have required too much manual effort.
                 </p>
                 <ul className="list-disc marker:text-secondary space-y-4 mt-6">
                   <li className="">
-                  Lead management and distribution
+                  Centralised communication platform
                   </li>
-                  <p>Managing leads is still quite a challenge for most businesses. You get leads from various sources — Google Ads, your website, Facebook ads and so on. Ideally, you would want all these leads collected in one place so you can easily share them with your team. But often they end up getting captured in multiple spreadsheets. Then you have to hand them off to your team members manually, making the whole process of assigning leads a nightmare. With an operational CRM, however, you can easily assign your most important leads to your preferred team members.</p>
+                  <p>The core feature of WhatsApp Community is to act as a central hub where messages, announcements and updates can be shared with multiple groups simultaneously. It helps you manage your communication better, making it easier to keep your audience informed and engaged.</p>
                   <li className="">
-                  Telesales management
+                  Broadcast messaging
                   </li>
-                  <p>Your sales team interacts with tens, if not hundreds, of leads every day, follows up with them diligently and even handles customer queries without batting an eye. But this process is quite exhaustive, as agents have to constantly juggle between Excel or Google Sheets to fetch the contact information of leads. But with an operational CRM, your agents don’t have to face these hurdles as the software optimises the process through automation, reducing the manual work done by your team. </p>
+                  <p>The ability to send broadcast messages to multiple groups simultaneously is invaluable for any business looking to share its message efficiently. Whether it’s a new product launch, a service update or important news, you can rest assured that your message will reach all relevant stakeholders instantly, without any delay.
+
+</p>
+                  <li className="">
+                  Privacy and security
+                  </li>
+                  <p>WhatsApp’s commitment to privacy and security is crucial for businesses in building trust with their customers. By ensuring that the personal contact details of members within a community are not visible to other members of that community, you can foster a safe and secure environment for communication, which is essential for maintaining customer trust and loyalty.</p>
                 </ul>
                 <div className="grid xl:grid-cols-2 grid-cols-1  gap-5 md:mt-14 mt-8 ">
                   <ul className="flex items-center space-x-3 ">
@@ -120,7 +115,7 @@ With operational CRM, you can efficiently automate all your sales operations, fr
                         href="#"
                         className=" px-3 py-1  bg-white rounded hover:text-primary"
                       >
-                        Business
+                        Community
                       </a>
                     </li>
                     <li>
@@ -136,7 +131,7 @@ With operational CRM, you can efficiently automate all your sales operations, fr
                         href="#"
                         className=" px-3 py-1  bg-white rounded hover:text-primary"
                       >
-                        Marketing
+                        WhatsApp
                       </a>
                     </li>
                   </ul>
@@ -634,4 +629,4 @@ With operational CRM, you can efficiently automate all your sales operations, fr
   );
 };
 
-export default Blog1;
+export default Blog3;

@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import {
-  bThumb1,
-  bThumb2,
+  // bThumb1,
+  // bThumb2,
   // bThumb3,
   calender,
   // insIcon1,
@@ -173,7 +173,7 @@ const BLogStandard = () => {
                         className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
                       >
-                        <span>Development (23)</span>
+                        <span>Case Studies (23)</span>
                         <span class="text-2xl">
                           <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
                         </span>
@@ -186,7 +186,7 @@ const BLogStandard = () => {
                         className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
                       >
-                        <span>Art &amp; Design (45)</span>
+                        <span>Sales &amp; Marketing (45)</span>
                         <span class="text-2xl">
                           <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
                         </span>
@@ -199,7 +199,7 @@ const BLogStandard = () => {
                         className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
                       >
-                        <span>Data Science (14)</span>
+                        <span>Real State (14)</span>
                         <span class="text-2xl">
                           <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
                         </span>
@@ -212,7 +212,7 @@ const BLogStandard = () => {
                         className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
                       >
-                        <span>Data Science (14)</span>
+                        <span>Features (14)</span>
                         <span class="text-2xl">
                           <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
                         </span>
@@ -225,7 +225,7 @@ const BLogStandard = () => {
                         className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
                       >
-                        <span>Technology (28)</span>
+                        <span>Start Up (28)</span>
                         <span class="text-2xl">
                           <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
                         </span>
@@ -238,7 +238,7 @@ const BLogStandard = () => {
                         className=" flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all
                         duration-150"
                       >
-                        <span>It Management (34)</span>
+                        <span>Education (34)</span>
                         <span class="text-2xl">
                           <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
                         </span>
@@ -334,7 +334,7 @@ const BLogStandard = () => {
                         href="#"
                         className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
                       >
-                        Design
+                        Start Up
                       </a>
                     </li>
 
@@ -343,7 +343,7 @@ const BLogStandard = () => {
                         href="#"
                         className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
                       >
-                        Students
+                        Virtual Assistance
                       </a>
                     </li>
 
@@ -352,7 +352,7 @@ const BLogStandard = () => {
                         href="#"
                         className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
                       >
-                        Teachers
+                        Crm
                       </a>
                     </li>
 
@@ -361,7 +361,7 @@ const BLogStandard = () => {
                         href="#"
                         className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
                       >
-                        classNameroom
+                        Community
                       </a>
                     </li>
 
@@ -370,7 +370,7 @@ const BLogStandard = () => {
                         href="#"
                         className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
                       >
-                        Online
+                        Tele Calling
                       </a>
                     </li>
 
@@ -388,7 +388,7 @@ const BLogStandard = () => {
                         href="#"
                         className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
                       >
-                        Book
+                        Make Money
                       </a>
                     </li>
                   </ul>
