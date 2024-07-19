@@ -31,7 +31,7 @@ const Blog5 = () => {
   return (
     <div className="nav-tab-wrapper tabs  section-padding">
       <div className="container">
-        <div className="grid grid-cols-12 gap-[30px]">
+        <div className="grid grid-cols-1 gap-[30px]">
           <div className="lg:col-span-8 col-span-12">
             <div className="bg-[#F8F8F8] rounded-md">
               <img src={mt2} alt="" className=" rounded-t-md mb-10" />
