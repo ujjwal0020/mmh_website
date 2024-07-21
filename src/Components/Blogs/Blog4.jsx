@@ -22,6 +22,8 @@ import mt2 from "../../assets/images/tech.jpg";
 
 
 const Blog4 = () => {
+  const tags = ["Business", "Sales", "Marketing"];
+  const socialIcons = [fbIcon, pnIcon, twIcon, insIcon];
   return (
     <div className="nav-tab-wrapper tabs  section-padding">
       <div className="container">
@@ -47,287 +49,96 @@ const Blog4 = () => {
                 <h3>
                 Indian Virtual Assistant’s Not So Virtual After All
                 </h3>
-                <p className="mt-6">
-                The term VIRTUAL is mostly used to distinguish something which is just conceptualized from something absolute physical in reality.
-                When this term gets applied to remote workers it takes a form of a new term ‘Virtual Assistants’, ‘Virtual Secretaries’. With the birth of the world wide web and dot coms, it is possible for each and everyone who has access to it. To work, share, collaborate and work as a team on any ideas from any corner of the world. Nowadays the world seems smaller in front of ever-growing technology. It has enabled us to talk, meet & connect on the go. We can have a talk on the phone, communicate via email, attend meets, and conferences via video calling around the globe. Due to technology, it feels so real that the term Virtual Assistants is actually losing its virtuality because it is happening in real-time, real space, communication taking place between real persons 
-                like we used to discuss in an office but just the cubicles missing or we can say, getting redefined.
-                </p>
-                {/* <blockquote className=" bg-secondary p-8 rounded-md bg-[url('../images/all-img/bb.png')] bg-cover bg-no-repeat bg-center my-8 text-white">
-                  <img src={q} alt="" />
-                  <div className=" text-xl font-semibold my-6">
-                    “ Education is one of the most powerful aspects of life.
-                    Education and learning allow us to make sense of the world
-                    around us, the world inside of us, and where we fit within
-                    the world.”
-                  </div>
-                  <div className=" flex items-center space-x-3">
-                    <span className=" inline-flex h-[3px] w-12 bg-white"></span>
-                    <span className=" text-xl font-semibold">
-                      Rosalina D. Jackson
-                    </span>
-                  </div>
-                </blockquote> */}
-                <br />
-                {/* <p>
-                Well to answer this question it began in the era of the dot com boom. India became a frontline for outsourcings. 
-                Various MNC set up their contact centers in India to support their various needs. 
-                </p> */}
-                {/* <div className="grid md:grid-cols-2 grid-cols-1 gap-[30px] my-8">
-                  <img src={bs2} alt="" />
-                  <img src={} alt="" />
-                </div> */}
-                <h4 className="text-2xl mb-4">
-                Well to answer this question it began in the era of the dot com boom. India became a frontline for outsourcings. 
-                Various MNC set up their contact centers in India to support their various needs. 
-                </h4>
-                <p>
-                Trainers from overseas would charge huge money to train the Indian staff to get accustomed to the accent, customs, lifestyle, and thought process of their clients.
+                <p>The term VIRTUAL is mostly used to distinguish something which is just conceptualized from something absolute physical in reality. When this term gets applied to remote workers, it takes the form of new terms like ‘Virtual Assistants’ and ‘Virtual Secretaries’. With the birth of the world wide web and dot coms, it is possible for everyone who has access to it to work, share, collaborate, and work as a team on any ideas from any corner of the world. Nowadays, the world seems smaller in front of ever-growing technology. It has enabled us to talk, meet, and connect on the go. We can have a talk on the phone, communicate via email, attend meetings, and conferences via video calling around the globe. Due to technology, it feels so real that the term Virtual Assistants is actually losing its virtuality because it is happening in real-time, real space, with communication taking place between real persons like we used to discuss in an office but just the cubicles missing or, we can say, getting redefined.</p>
 
-The reason they chose Indian then and are choosing India even now is that the difference in labor rates was and is still lucrative in comparison to the US market. Apart from these, there were few more reasons like in India the staff they could hire is educated, are tech-savvy, good with computers and well versed with the tools to upscale the use of the same. They are hardworking, willing to learn, and are quick to adapt to the culture. The lack was the accent which can be tackled with training as English has been a second language. As schools start English lessons as early as pre-school though it has not been a success it’s on an acceptable standard. As this information got a pass on to mid to small-level businesses, they started trying their hands on hiring the services and to gain an advantage of hiring the required skill 
-set have a cheaper workforce. And expanding the business by hiring them as small teams.
-                </p>
-                {/* <ul className="list-disc marker:text-secondary space-y-4 mt-6">
-                  <li className="">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
-                  <li className="">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
-                  <li className="">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </li>
-                </ul> */}
-                <div className="grid xl:grid-cols-2 grid-cols-1  gap-5 md:mt-14 mt-8 ">
-                  <ul className="flex items-center space-x-3 ">
-                    <li className=" text-black font-semibold">Tags:</li>
-                    <li>
-                      <a
-                        href="#"
-                        className=" px-3 py-1  bg-white rounded hover:text-primary"
-                      >
-                        Assistance
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className=" px-3 py-1  bg-white rounded hover:text-primary"
-                      >
-                        Virtual Assistance
-                      </a>
-                    </li>
-                    {/* <li>
-                      <a
-                        href="#"
-                        className=" px-3 py-1  bg-white rounded hover:text-primary"
-                      >
-                      Tele Calling
-                      </a>
-                    </li> */}
-                  </ul>
-                  <ul className="flex space-x-3 xl:justify-end items-center  ">
-                    <li className=" text-black font-semibold">Share On:</li>
+<h2 className="text-2xl mb-4">How it all started?</h2>
+<p>Well, to answer this question, it began in the era of the dot com boom. India became a frontline for outsourcing. Various MNCs set up their contact centers in India to support their various needs.</p>
+<p>Trainers from overseas would charge huge money to train the Indian staff to get accustomed to the accent, customs, lifestyle, and thought process of their clients.</p>
+<p>The reason they chose India then and are choosing India even now is that the difference in labor rates was and is still lucrative in comparison to the US market. Apart from this, there were a few more reasons like in India the staff they could hire is educated, tech-savvy, good with computers, and well-versed with the tools to upscale the use of the same. They are hardworking, willing to learn, and quick to adapt to the culture. The lack was the accent, which can be tackled with training as English has been a second language. Schools start English lessons as early as pre-school, though it has not been a complete success, it’s on an acceptable standard. As this information passed on to mid to small-level businesses, they started trying their hands on hiring the services and gaining the advantage of hiring the required skill set at a cheaper workforce. And expanding the business by hiring them as small teams.</p>
 
-                    {[fbIcon, pnIcon, twIcon, insIcon].map((item, indx) => (
-                      <li key={indx}>
-                        <a href="#" className="flex h-8 w-8">
-                          <img src={item} alt="" />
-                        </a>
-                      </li>
+<p>But nowadays the nature in which we work has changed dramatically with the introduction of Cloud Computing. It is possible to share, store, and collaborate everything with anyone. This enabled in-house teams and remote teamwork collectively. Technology has enabled the usage of sophisticated and newer software and tools that have broken the barriers of the typical workspace and made every corner of the world a workplace collectively. It also developed the area and scope for everyone to leverage the win-win situation for everyone.</p>
+
+<p>Globalization and Technology surely have changed the current scenario of the world as it has changed the skillsets available. Every passing year, students from Engineering, Medical, and Commerce streams are graduating from India. Due to the dense reach of the internet to the masses, they are well-prepared for every task put ahead of them. Due to this, you don’t have to provide in-depth training to your potential workforce. This is the impact of the Internet on everyone. You have the opportunities to explore, review, test, and just hire them.</p>
+
+<h2 className="text-2xl mb-4">How has MMH tapped into the skill market?</h2>
+<p>By knowing the fact that there is never or there will neither be a shortage of skilled staff. Apart from that, there is always something that is missing, and we are tapping in for the missing part. That extra little help, that extra little push that will take you and your business places. Before allotting the Virtual Assistants (task officers as we fondly call them) to any of the clients, they go through the training and skill enhancement program that makes them skillful, sufficient, and successful in handling tasks coming their way. Assistants who are assigned to work with clients are full-time employees of TASKPAPA, not freelancers. This is an advantage that our clients get. The job of a Virtual Assistant is to perform multitasking jobs with utmost efficiency and effectiveness. As the world is changing, so are the definitions of productivity also changing. It can’t be defined in few points what our task officers can do and what they can’t do.</p>
+
+<p>Globalization is changing our views and terms for the workspace, workforce, team building, and handling simple or complex projects. Going virtual is not a choice anymore as it used to be. It’s the need of the hour.</p>
+
+<p>Are you gaining the advantages that this new era has to offer?</p>
+<p>Contact us if you would like to have an idea about how we can streamline your work and add skills, advantages, and value which is more productive and more cost-effective for your business and personal growth.</p>
+                <div className="flex items-center justify-between mt-12 mb-8 border-b pb-8">
+                  <div className="flex items-center space-x-2">
+                    <span className="text-lg">Tags:</span>
+                    {tags.map((tag, index) => (
+                      <a key={index} href="#" className="text-primary font-semibold text-lg">
+                        {tag}
+                      </a>
                     ))}
-                  </ul>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <span className="text-lg">Share:</span>
+                    {socialIcons.map((icon, index) => (
+                      <a key={index} href="#">
+                        <img src={icon} alt={`Share on ${icon.alt}`} />
+                      </a>
+                    ))}
+                  </div>
                 </div>
-
-                {/* <div className="grid xl:grid-cols-2 grid-cols-1  gap-[30px] md:mt-14 mt-8">
-                  <a
-                    className=" flex space-x-4 shadow-box7 rounded p-5 bg-white"
-                    href="#"
-                  >
-                    <div className="flex-none ">
-                      <div className="h-20 w-20  rounded">
-                        <img
-                          src={rc1}
-                          alt=""
-                          className=" w-full h-full object-cover rounded"
-                        />
-                      </div>
-                    </div>
-                    <div className="flex-1 ">
-                      <span className=" text-primary  text-base mb-1">
-                        Prev Post
-                      </span>
-                      <div className="mb-1 font-semibold text-black">
-                        How Technology Can Help You Stay Healthy
-                      </div>
-                    </div>
-                  </a>
-
-                  <a
-                    className=" flex  flex-row-reverse shadow-box7 bg-white rounded p-5"
-                    href="#"
-                  >
-                    <div className="flex-none ">
-                      <div className="h-20 w-20  rounded ml-4">
-                        <img
-                          src={rc3}
-                          alt=""
-                          className=" w-full h-full object-cover rounded"
-                        />
-                      </div>
-                    </div>
-                    <div className="flex-1 text-right ">
-                      <span className=" text-primary  text-base mb-1">
-                        Next Post
-                      </span>
-                      <div className="mb-1 font-semibold text-black">
-                        How Technology Can Help You Stay Healthy
-                      </div>
-                    </div>
-                  </a>
+                {/* <div className="bg-[#FFFFFF] p-10 rounded-md">
+                  <h3 className="mb-4">Leave A Reply</h3>
+                  <form className="grid grid-cols-1 gap-[20px]">
+                    <textarea
+                      name="comment"
+                      className="p-4 border border-gray-300 rounded-md"
+                      rows="5"
+                      placeholder="Write your comment here..."
+                    ></textarea>
+                    <input
+                      type="text"
+                      name="name"
+                      className="p-4 border border-gray-300 rounded-md"
+                      placeholder="Name"
+                    />
+                    <input
+                      type="email"
+                      name="email"
+                      className="p-4 border border-gray-300 rounded-md"
+                      placeholder="Email"
+                    />
+                    <button type="submit" className="bg-primary text-white p-4 rounded-md">
+                      Submit
+                    </button>
+                  </form>
                 </div> */}
               </div>
             </div>
-
-            {/* <div className=" mt-14">
-              <h3 className=" mb-6">3 Comments</h3>
-              <ul className="comments space-y-4">
-                <li className="block border-b border-[#ECECEC] pb-6 mt-6 last:border-0 last:pb-0">
-                  <div className="flex">
-                    <div className="flex-none">
-                      <div className="h-[72px] w-[72px] rounded-full mr-6">
-                        <img
-                          src={insIcon1}
-                          alt=""
-                          className="w-full block h-full object-contain rounded-full"
-                        />
-                      </div>
-                    </div>
-                    <div className="flex-1">
-                      <div className="flex flex-wrap justify-between mb-2">
-                        <div>
-                          <span className="text-xl  font-semibold text-black block mb-1">
-                            Ferira Watson
-                          </span>
-                          <span className=" block">Oct 09, 2021</span>
-                        </div>
-                        <a
-                          href="#"
-                          className=" inline-flex px-3 py-1 rounded text-secondary bg-[#E3F9F6] hover:text-white hover:bg-secondary h-[35px]
-                            items-center space-x-2 leading-[1]"
-                        >
-                          <span className=" text-xl leading-[1] top-[3px] relative">
-                            <iconify-icon
-                              icon="charm:forward"
-                              rotate="180deg"
-                            ></iconify-icon>
-                          </span>
-                          <span className=" leading-[1]">Reply</span>
-                        </a>
-                      </div>
-                      <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form
-                      </p>
-                    </div>
-                  </div>
-                  <ul className="comments mt-6 space-y-4 ml-14 border-t border-[#ECECEC]">
-                    <li className="block border-b border-[#ECECEC] pb-6 mt-6 last:border-0 last:pb-0">
-                      <div className="flex">
-                        <div className="flex-none">
-                          <div className="h-[72px] w-[72px] rounded-full mr-6">
-                            <img
-                              src={insIcon3}
-                              alt=""
-                              className="w-full block h-full object-contain rounded-full"
-                            />
-                          </div>
-                        </div>
-                        <div className="flex-1">
-                          <div className="flex flex-wrap justify-between mb-2">
-                            <div>
-                              <span className="text-xl  font-semibold text-black block mb-1">
-                                Ferira Watson
-                              </span>
-                              <span className=" block">Oct 09, 2021</span>
-                            </div>
-                            <a
-                              href="#"
-                              className=" inline-flex px-3 py-1 rounded text-secondary bg-[#E3F9F6] hover:text-white hover:bg-secondary h-[35px]
-                                    items-center space-x-2 leading-[1]"
-                            >
-                              <span className=" text-xl leading-[1] top-[3px] relative">
-                                <iconify-icon
-                                  icon="charm:forward"
-                                  rotate="180deg"
-                                ></iconify-icon>
-                              </span>
-                              <span className=" leading-[1]">Reply</span>
-                            </a>
-                          </div>
-                          <p>
-                            There are many variations of passages of Lorem Ipsum
-                            available, but the majority have suffered alteration
-                            in some form
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
-                <li className="block">
-                  <div className="flex">
-                    <div className="flex-none">
-                      <div className="h-[72px] w-[72px] rounded-full mr-6">
-                        <img
-                          src={insIcon2}
-                          alt=""
-                          className="w-full block h-full object-contain rounded-full"
-                        />
-                      </div>
-                    </div>
-                    <div className="flex-1">
-                      <div className="flex flex-wrap justify-between mb-2">
-                        <div>
-                          <span className="text-xl  font-semibold text-black block mb-1">
-                            Ferira Watson
-                          </span>
-                          <span className=" block">Oct 09, 2021</span>
-                        </div>
-                        <a
-                          href="#"
-                          className=" inline-flex px-3 py-1 rounded text-secondary bg-[#E3F9F6] hover:text-white hover:bg-secondary h-[35px]
-                            items-center space-x-2 leading-[1]"
-                        >
-                          <span className=" text-xl leading-[1] top-[3px] relative">
-                            <iconify-icon
-                              icon="charm:forward"
-                              rotate="180deg"
-                            ></iconify-icon>
-                          </span>
-                          <span className=" leading-[1]">Reply</span>
-                        </a>
-                      </div>
-                      <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div> */}
-            {/* <div className=" mt-14">
-              <h3 className=" mb-4">Leave A Reply</h3>
-              <div>
-                Your email address will not be published. Requires fields are
-                marked*
-              </div>
-              <ContactForm />
-            </div> */}
           </div>
-
+          {/* <div className="lg:col-span-4 col-span-12">
+            <div className="bg-[#F8F8F8] p-6 rounded-md">
+              <h3 className="mb-6">Recent Posts</h3>
+              <div className="flex flex-col space-y-4">
+    
+                <a href="#" className="flex items-center space-x-4">
+                  <img src={mt2} alt="Recent post 1" className="w-20 h-20 object-cover rounded-md" />
+                  <span>How to Improve Sales Using Operational CRM</span>
+                </a>
+                <a href="#" className="flex items-center space-x-4">
+                  <img src={mt2} alt="Recent post 2" className="w-20 h-20 object-cover rounded-md" />
+                  <span>Top 10 CRM Tools for Small Businesses</span>
+                </a>
+              </div>
+            </div>
+            <div className="bg-[#F8F8F8] p-6 rounded-md mt-6">
+              <h3 className="mb-6">Popular Tags</h3>
+              <div className="flex flex-wrap gap-2">
+              
+                <a href="#" className="text-primary font-semibold">CRM</a>
+                <a href="#" className="text-primary font-semibold">Sales</a>
+                <a href="#" className="text-primary font-semibold">Marketing</a>
+              </div>
+            </div>
+          </div> */}
         </div>
       </div>
     </div>
