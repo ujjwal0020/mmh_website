@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import About from "../HomeTwoComponents/About";
-import BlogArticle from "../HomeTwoComponents/BlogArticle";
+// import BlogArticle from "../HomeTwoComponents/BlogArticle";
 import Categories from "../HomeTwoComponents/Categories";
 import Counter from "../HomeTwoComponents/Counter";
 import Footer from "../HomeTwoComponents/Footer";
@@ -22,7 +22,7 @@ const HomeTwo = () => {
       <Video />
       <WhyChoose />
       {/* <Achivement /> */}
-      <BlogArticle />
+      {/* <BlogArticle /> */}
       <Footer />
     </section>
   );
