@@ -1,19 +1,20 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import logo from '../../assets/images/logo/MMH_logo_1.png';
-import {
-  fbIcon,
-  insIcon,
-  pnIcon,
-  twIcon,
+// import {
+//   fbIcon,
+//   insIcon,
+//   pnIcon,
+//   twIcon,
 
-} from "../../constant/images";
-import about3 from "../../assets/images/landing_page6.jpg";
-import about4 from "../../assets/images/landing_page1.webp";
-import about5 from "../../assets/images/landing_page2.avif";
-import about6 from "../../assets/images/tech.jpg";
-import about7 from '../../assets/images/beprep.png';
-import about8 from '../../assets/images/landing_page3.webp';
+// } from "../../constant/images";
+// import about3 from "../../assets/images/landing_page6.jpg";
+// import about4 from "../../assets/images/landing_page1.webp";
+// import about5 from "../../assets/images/landing_page2.avif";
+// import about6 from "../../assets/images/tech.jpg";
+// import about7 from '../../assets/images/beprep.png';
+// import about8 from '../../assets/images/landing_page3.webp';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -44,7 +45,7 @@ const Footer = () => {
                 "We've Built Our Business Of Serving Your Needs On Some Core Principles. 
                 This We Believe Lets Us Serve Your Success And That Ultimately Is Our Goal."
                 </p>
-                <ul className="flex space-x-4 pt-8">
+                {/* <ul className="flex space-x-4 pt-8">
                   <li>
                     <a href="#" className="flex h-10 w-10">
                       <img src={fbIcon} alt="" />
@@ -65,7 +66,7 @@ const Footer = () => {
                       <img src={insIcon} alt="" />
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
             <div className="single-footer col-span-12 lg:col-span-6 xl:col-span-6">
@@ -80,13 +81,13 @@ const Footer = () => {
                         <a href="/">Home</a>
                       </li>
                       <li>
-                        <a href="#">About Us</a>
+                        <Link to="/about">About Us</Link>
                       </li>
                       <li>
-                        <a href="#">Contact Us</a>
+                        <Link to="/contacts">Contact Us</Link>
                       </li>
                       <li>
-                        <a href="#">Blog</a>
+                        <Link to="/blogs">Blog</Link>
                       </li>
                     </ul>
                   </div>
@@ -96,29 +97,21 @@ const Footer = () => {
                     </h4>
                     <ul className="list-item space-y-5">
                       <li>
-                        <a href="#">Legal</a>
+                        <Link to="/hr_faq">HR FAQ's</Link>
+                      
                       </li>
                       <li>
-                        <a href="#">Tearms of Use</a>
+                      <Link to="/terms">Terms & Condition</Link>
                       </li>
                       <li>
-                        <a href="#">Tearm & Condition</a>
-                      </li>
-                      <li>
-                        <a href="#">Payment Method</a>
-                      </li>
-                      <li>
-                        <a href="#">Privacy Policy</a>
-                      </li>
-                      <li>
-                        <a href="#">Privacy Policy</a>
+                        <Link to="/privacy">Privacy Policy</Link>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="single-footer col-span-12 lg:col-span-6 xl:col-span-3">
+            {/* <div className="single-footer col-span-12 lg:col-span-6 xl:col-span-3">
               <h4 className="mb-8 text-2xl font-bold text-black">
                 Instagram Post
               </h4>
@@ -150,7 +143,26 @@ const Footer = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
+            <div className="single-footer col-span-12 lg:col-span-6 xl:col-span-3">
+                    <h4 className="mb-8 text-2xl font-bold text-black">
+                      Contact Us
+                    </h4>
+                    <ul className="list-item space-y-5">
+                      <li>
+                        <Link to="/" className="lowercase">makemoneyfromhome</Link>
+                      </li>
+                      <li>
+                      <Link to="/">Address</Link>
+                      </li>
+                      <li>
+                        <Link to="#" className="lowercase">info@makemoneyonline.com</Link>
+                      </li>
+                      <li>
+                        <Link to="#">+91 78945612365</Link>
+                      </li>
+                    </ul>
+                  </div>
           </div>
         </div>
 

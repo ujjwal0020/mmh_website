@@ -86,7 +86,7 @@ const BLogStandard = () => {
                   </div>
                 ))}
               </div>
-              <div className="pagination mt-14">
+              {/* <div className="pagination mt-14">
                 <ul className=" flex justify-center space-x-3">
                   <li className="inline-flex">
                     <a
@@ -143,7 +143,7 @@ const BLogStandard = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
             {/* <div className="lg:col-span-4 col-span-12">
               <div className="sidebarWrapper space-y-[30px]">
