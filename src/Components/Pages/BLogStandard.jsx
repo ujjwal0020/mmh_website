@@ -14,14 +14,14 @@ import {
   // rc1,
   // rc2,
   // rc3,
-  search,
+  // search,
 } from "../../constant/images";
-import about3 from "../../assets/images/landing_page6.jpg";
-import about4 from "../../assets/images/landing_page1.webp";
-import about5 from "../../assets/images/landing_page2.avif";
-import about6 from "../../assets/images/tech.jpg";
-import about7 from "../../assets/images/beprep.png";
-import about8 from "../../assets/images/landing_page3.webp";
+// import about3 from "../../assets/images/landing_page6.jpg";
+// import about4 from "../../assets/images/landing_page1.webp";
+// import about5 from "../../assets/images/landing_page2.avif";
+// import about6 from "../../assets/images/tech.jpg";
+// import about7 from "../../assets/images/beprep.png";
+// import about8 from "../../assets/images/landing_page3.webp";
 
 
 
@@ -30,15 +30,17 @@ import Header from "../Header";
 // import PageBanner from "../PageBanner";
 import Footer from "../HomeTwoComponents/Footer";
 import { BlogData } from "../../constant/BlogData";
+import { Link } from "react-router-dom";
 
 const BLogStandard = () => {
   return (
     <>
       <Header />
+      <br />
       {/* <PageBanner title={"Blog Standard"} pageName={"Blog Standard"} /> */}
       <div className="nav-tab-wrapper tabs  section-padding">
         <div className="container">
-          <div className="grid grid-cols-12 gap-[30px]">
+          <div className="grid grid-cols-1 gap-[30px]">
             <div className="lg:col-span-8 col-span-12">
               <div className="grid grid-cols-1 gap-[30px]">
                 {BlogData.map((post, index) => (
@@ -58,12 +60,12 @@ const BLogStandard = () => {
                         Industry
                       </span>
                       <h3 className="mb-4 mt-4">
-                        <a
-                          href={`blogs/${post.to}`}
+                        <Link
+                          to={`/blogs/${post.to}`}
                           className="hover:text-primary transition duration-150"
                         >
                           {post.title}
-                        </a>
+                        </Link>
                       </h3>
                       <p>{post.content}</p>
                       <div className="flex lg:space-x-10 space-x-5 mt-6">
@@ -86,7 +88,7 @@ const BLogStandard = () => {
                   </div>
                 ))}
               </div>
-              <div className="pagination mt-14">
+              {/* <div className="pagination mt-14">
                 <ul className=" flex justify-center space-x-3">
                   <li className="inline-flex">
                     <a
@@ -143,9 +145,9 @@ const BLogStandard = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
-            <div className="lg:col-span-4 col-span-12">
+            {/* <div className="lg:col-span-4 col-span-12">
               <div className="sidebarWrapper space-y-[30px]">
                 <div className="wdiget widget_search">
                   <div className="bg-[#F8F8F8] flex  rounded-md shadow-e1 items-center  py-[4px] pl-3  relative">
@@ -246,7 +248,7 @@ const BLogStandard = () => {
                     </li>
                   </ul>
                 </div>
-                {/* <div className="wdiget widget-recent-post">
+                <div className="wdiget widget-recent-post">
                   <h4 className=" widget-title">Related Courses</h4>
                   <ul className="list">
                     <li className=" flex space-x-4 border-[#ECECEC] pb-6 mb-6 last:pb-0 last:mb-0 last:border-0 border-b">
@@ -307,7 +309,7 @@ const BLogStandard = () => {
                       </div>
                     </li>
                   </ul>
-                </div> */}
+                </div>
                 <div className="wdiget">
                   <h4 className="widget-title">Popular Tags</h4>
                   <ul className="flex flex-wrap">
@@ -423,7 +425,7 @@ const BLogStandard = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -11,6 +11,9 @@ import Blog3 from "../Blogs/Blog3";
 import Blog4 from "../Blogs/Blog4";
 import Blog5 from "../Blogs/Blog5";
 import Blog6 from "../Blogs/Blog6";
+import Blog7 from "../Blogs/Blog7";
+import Blog8 from "../Blogs/Blog8";
+import Blog9 from "../Blogs/Blog9";
 // import PageBanner from "../PageBanner";
 
 const SingleBlog = () => {
@@ -35,6 +38,12 @@ const SingleBlog = () => {
           return <Blog5 />;  
       case 5:
           return <Blog6 />;  
+      case 6:
+            return <Blog7 />;
+      case 7:
+              return <Blog8 />;
+      case 8:
+              return <Blog9 />;
       // Add more cases for other blog indices and components
       default:
         return <div>Blog not found</div>;
@@ -44,6 +53,7 @@ const SingleBlog = () => {
   return (
     <>
       <Header />
+      <br />
       {renderBlogComponent()}
       <Footer />
     </>

@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-expressions */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useRef, useState } from "react";
-import wfb from "../../assets/images/social/wfb.svg";
-import wt from "../../assets/images/social/wt.svg";
-import wi from "../../assets/images/social/w-i.svg";
-import wins from "../../assets/images/social/w-ins.svg";
-import search from "../../assets/images/svg/search.svg";
+// import wfb from "../../assets/images/social/wfb.svg";
+// import wt from "../../assets/images/social/wt.svg";
+// import wi from "../../assets/images/social/w-i.svg";
+// import wins from "../../assets/images/social/w-ins.svg";
+// import search from "../../assets/images/svg/search.svg";
 // import logo from "../../assets/images/logo/logo.svg";
 import logo from '../../assets/images/logo/MMH_logo_1.png';
 import landing from "../../assets/images/landing_page3.webp";
@@ -37,7 +37,7 @@ const HomeTwoHeader = () => {
   return (
     <section className=" xl:min-h-screen bg-[url('../images/banner/2.png')] bg-cover bg-no-repeat bg-center overflow-hidden xl:pb-[130px]">
       <header className="site-header ">
-        <div className="bg-primary text-white py-3 md:block hidden">
+        {/* <div className="bg-primary text-white py-3 md:block hidden">
           <div className=" container">
             <div className="grid lg:grid-cols-2  grid-cols-1 gap-5 ">
               <ul className=" flex  divide-x divide-white divide-opacity-25 text-base lg:justify-start justify-center">
@@ -73,7 +73,7 @@ const HomeTwoHeader = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
         <div
           className="main-header py-8 header-normal2  rt-sticky top-0 w-full z-[999] "
           ref={scrollNav}
@@ -225,14 +225,14 @@ const HomeTwoHeader = () => {
                 </div>
                 <div className="flex-none flex space-x-[18px]">
                   <div>
-                    <button
+                    {/* <button
                       type="button"
                       className=" md:w-[56px] md:h-[56px] h-10 w-10 rounded bg-white flex flex-col items-center justify-center modal- 
                       trigger"
                       onClick={handleShowSearchBar}
                     >
                       <img src={search} alt="" />
-                    </button>
+                    </button> */}
                   </div>
                   <div className=" block   lg:hidden">
                     <button

@@ -2,6 +2,9 @@ import mt from "../assets/images/whatsapp.webp";
 import mt1 from "../assets/images/sales.webp";
 import mt2 from "../assets/images/crm1.webp";
 import mt3 from "../assets/images/buisness.png";
+import mt4 from "../assets/images/quotes.png";
+import mt5 from "../assets/images/ujk.png";
+import mt6 from "../assets/images/u12.png";
 import {
   bThumb1,
   bThumb2,
@@ -23,55 +26,66 @@ export const BlogData = [
     image: mt2,
     title: "A 5-Minute Guide on Operational CRM You Need to Know in 2024",
     to: "A_5-Minute_Guide_on_Operational_CRM_You_Need_to_Know_in_2024",
-    content:
-      "Running a business isn’t as straightforward as it looks. You’re constantly juggling multiple tasks, from sales and marketing to research and customer support. These demanding and repetitive tasks can quickly drain your energy and that of your team. But with an operational CRM, you can simplify and streamline your workflow which means it does all the heavy lifting, allowing you and your team to focus on the strategy side of things.But there’s more to operational CRM than just automation. Keep reading to find out more about this particular type of CRM and understand how exactly it benefits your business. ",
+    content:"Looking to enhance customer interactions and streamline your business operations? This 5-minute guide to Operational CRM will introduce you to the essentials you need to know in 2024, helping you optimize your customer relationship management effectively.",
     date: "17 May, 24",
   },
   {
     image: mt1,
     title: "What is Sales Automation? Ultimate Guide [+ Examples]",
     to: "What_is_Sales_Automation",
-    content:
-      "Sales automation refers to automating all your routine sales tasks, from tracking leads and scheduling follow-ups to analysing sales data and managing customer interactions, so that Your agents don’t have to deal with those tasks.The chances of human errors are reduced to zero.Your team’s collective time and energy are better spent on tasks that truly matter.A sales automation tool makes the process of selling faster, more efficient and less prone to errors. ",
+    content:"Curious about how sales automation can transform your business? Dive into our ultimate guide to understand what sales automation is, explore practical examples, and discover how it can streamline your sales processes and boost efficiency.",
     date: "12 July, 24",
   },
   {
     image: mt,
     title: "Setup WhatsApp Community in 4 Clicks (With Tips for High Engagement)",
     to: "Setup_WhatsApp_Community_in_4_Clicks_(With_Tips_for_High_Engagement)",
-
-    content:
-      "WhatsApp Community or WhatsApp Community group is basically an upgrade to the existing group chat feature on the app that allows you to manage and communicate with multiple groups under a single umbrella. It’s like having a dedicated space where all your customer groups can come together, without the clutter and limitations of traditional group chats.Imagine being able to send a message that can reach different WhatsApp groups without having to post it individually in each group. That’s the convenience WhatsApp Community offers, making it an invaluable tool for anyone looking to maintain and send bulk messages without any hassle.",
+content:"Ready to build a vibrant WhatsApp community in just four clicks? Learn how to set up and optimize your group with actionable tips to boost engagement and foster meaningful connections effortlessly.",
     date: "1 march, 24",
   },
   {
     image: bThumb1,
     title: "Indian Virtual Assistant’s Not So Virtual After All",
     to: "Indian_Virtual_Assistant’s_Not_So_Virtual_After_All",
-    content: `When this term gets applied to remote workers it takes a form of a new term ‘Virtual Assistants’, 
-              ‘Virtual Secretaries’. With the birth of the world wide web and dot coms, it is possible for each 
-              and everyone who has access to it. To work, share, collaborate and work as a team on any ideas from 
-              any corner of the world. Nowadays the world seems smaller in front of ever-growing technology. 
-              It has enabled us to talk, meet & connect on the go. We can have a talk on the phone, communicate via email, 
-              attend meets, and conferences via video calling around the globe. Due to technology, it feels so real that the
-              term Virtual Assistants is actually losing its virtuality because it is happening in real-time, real space, 
-              communication taking place between real persons like we used to discuss in an office but just the cubicles missing or we can say, getting redefined.`,
+    content:"Think Indian virtual assistants are just a remote concept? Discover how these professionals bring tangible, impactful solutions to your business, blending expertise with a personal touch that bridges the gap between virtual and reality.",
     date: "11 July, 21",
   },
   {
     image: bThumb2,
     title: "MYTHS ABOUT VIRTUAL ASSISTANTS AND A GROUND REALITY",
     to: "MYTHS_ABOUT_VIRTUAL_ASSISTANTS_AND_A_GROUND_REALITY",
-    content:
-      "All of the industries and markets in the globe have a common factor – The Myth and the actual hidden Reality. We are discussing a few pointers and some of the most common myths associated with hiring a Virtual Assistant (VA).And comparing the services provided by Freelancers and the services provided by a professional company that hires human resources as VIRTUAL ASSISTANTS.",
+    content:"Curious about virtual assistants? Uncover the myths and misconceptions surrounding virtual assistants and see the ground reality of how they can truly enhance your business efficiency and productivity.",  
     date: "15 July, 21",
   },
   {
     image: mt3,
     title: "Here Is Why Your Business/Start-Up Is Guaranteed To Fail!",
     to: "Here_Is_Why_Your_Business_Start-Up_Is_Guaranteed_To_Fail!",
-    content:
-      "Starting a business or a startup is an exciting venture, but it's fraught with challenges that can lead to failure if not addressed. One of the most critical reasons businesses fail is the lack of a clear value proposition. Without a unique selling point, your business will struggle to stand out in a crowded market. Additionally, poor financial management and inadequate funding can cripple your startup before it even gets off the ground. A failure to understand your target market and adapt to their needs can also spell disaster. Lastly, ineffective leadership and the inability to build a cohesive team can lead to internal conflicts and a lack of direction, ultimately causing your business to fail. Understanding and mitigating these risks is crucial for any startup's success.",
+    content:"Wondering why your business isn't taking off? Discover the common pitfalls that could be leading your start-up towards failure and learn how to avoid these critical mistakes to ensure long-term success.",
     date: "07 September, 19",
   },
+  {
+    image: mt4,
+    title: "25 Quotes you must read to ignite the Entrepreneur in you!",
+    to: "25_Quotes_you_must_read_to_ignite_the_Entrepreneur_in_you",
+    content:"Feeling stuck in your entrepreneurial journey? These 25 powerful quotes will reignite your passion and drive, offering fresh perspectives and motivating you to push forward with renewed energy.",
+    date: "24 August, 19",
+      
+  },
+  {
+    image: mt5,
+    title: "How to get clients organically for your business",
+    to: "How_to_get_clients_organically_for_your_business",
+    content: "Attracting clients organically is both cost-effective and sustainable. By focusing on a strong online presence, engaging content, and active social media, you can build lasting client relationships without heavy expenses.",
+    date: "19 August, 19",
+
+      
+  },
+  {
+    image: mt6,
+    title: "How to keep your employees happy",
+    to: "How_to_keep_your_employees_happy",
+    content: "Keeping your employees happy is key to a thriving business. Happy employees are more productive, engaged, and loyal. Explore simple yet effective strategies to enhance their satisfaction and build a positive work environment.",
+    date: "14 July, 19",
+  }
 ];
