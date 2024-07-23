@@ -13,6 +13,7 @@ const HR_FAQ = () => {
       <div className="container">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-[30px]">
           <div>
+            <br />
             <div className="mini-title">Frequently Asked Question</div>
             <div className="column-title ">
               General <span className="shape-bg">Questions</span>
@@ -81,15 +82,121 @@ const HR_FAQ = () => {
                   </li>
                 )}
 
+           
+
+              </Disclosure>
+              <Disclosure >
+                {({ open }) => (
+                  <li className={open ? "open" : null} >
+                    <Disclosure.Button type="button" className="accrodain-button">
+                      <span>What is the commission structure for sales positions?</span>
+                      <span className="icon-pm"></span>
+                    </Disclosure.Button>
+
+                    <Disclosure.Panel className="content">
+              
+The commission structure for sales positions usually combines a base salary with a percentage of sales made, which can vary by product or service. Tiered commissions,
+ where rates increase as sales targets are exceeded, and performance bonuses may also be included.
+                    </Disclosure.Panel>
+                  </li>
+                )}
+
+             
+              </Disclosure>
+              <Disclosure >
+                {({ open }) => (
+                  <li className={open ? "open" : null} >
+                    <Disclosure.Button type="button" className="accrodain-button">
+                      <span>What is the policy on remote work or flexible schedules for sales staff?</span>
+                      <span className="icon-pm"></span>
+                    </Disclosure.Button>
+
+                    <Disclosure.Panel className="content">
+                    The policy on remote work or flexible schedules for sales staff typically includes eligibility criteria, application procedures, and expectations for communication and productivity. It outlines how to request these arrangements and any
+                     provided support or equipment to ensure sales goals are met while maintaining flexibility.
+                    </Disclosure.Panel>
+                  </li>
+                )}
+
+             
+              </Disclosure>
+              <Disclosure >
+                {({ open }) => (
+                  <li className={open ? "open" : null} >
+                    <Disclosure.Button type="button" className="accrodain-button">
+                      <span>How do sales teams collaborate with other departments, such as marketing or customer service?</span>
+                      <span className="icon-pm"></span>
+                    </Disclosure.Button>
+
+                    <Disclosure.Panel className="content">
+                    
+Sales teams collaborate with marketing and customer service through regular meetings, shared goals, and integrated communication channels. They align campaigns, address customer feedback,
+ and ensure a seamless customer experience using collaboration tools and cross-functional projects.
+                    </Disclosure.Panel>
+                  </li>
+                )}
+
+             
+              </Disclosure>
+              <Disclosure >
+                {({ open }) => (
+                  <li className={open ? "open" : null} >
+                    <Disclosure.Button type="button" className="accrodain-button">
+                      <span>How are leads and accounts assigned to sales representatives?</span>
+                      <span className="icon-pm"></span>
+                    </Disclosure.Button>
+
+                    <Disclosure.Panel className="content">
+                    Leads and accounts are typically assigned to sales representatives based on factors like territory, industry, product specialization, and workload balance. Assignment methods may include round-robin distribution,
+                     geographic location, or aligning leads with reps' expertise to maximize efficiency and success rates.
+                    </Disclosure.Panel>
+                  </li>
+                )}
+
+              </Disclosure>
+             
+              <Disclosure >
+                {({ open }) => (
+                  <li className={open ? "open" : null} >
+                    <Disclosure.Button type="button" className="accrodain-button">
+                      <span>What is the policy on sales quotas and how are they adjusted if needed?</span>
+                      <span className="icon-pm"></span>
+                    </Disclosure.Button>
+
+                    <Disclosure.Panel className="content">
+                   
+The policy on sales quotas involves setting specific targets for sales representatives, typically based on historical data, market conditions, and company goals. Quotas are reviewed regularly and can be adjusted for factors such as market changes, economic conditions, or individual performance. 
+Adjustments ensure that targets remain realistic and achievable while driving company objectives.
+                    </Disclosure.Panel>
+                  </li>
+                )}
+
+              </Disclosure>
+            
+              <Disclosure >
+                {({ open }) => (
+                  <li className={open ? "open" : null} >
+                    <Disclosure.Button type="button" className="accrodain-button">
+                      <span>What support is available for new sales hires to get up to speed quickly?</span>
+                      <span className="icon-pm"></span>
+                    </Disclosure.Button>
+
+                    <Disclosure.Panel className="content">
+                    New sales hires receive support through comprehensive onboarding programs, which include training sessions on products, sales techniques, and company processes. They are often paired with mentors or experienced team members for guidance and have access to resources 
+                    like sales tools, documentation, and ongoing training to help them quickly become effective in their roles.
+                    </Disclosure.Panel>
+                  </li>
+                )}
+
               </Disclosure>
               
 
 
             </ul>
           </div>
-          <div className="flex justify-center">
-            <img src={faq} alt="" />
-          </div>
+          <div className="flex  h-full">
+  <img src={faq} alt="FAQ" />
+</div>
         </div>
       </div>
     </div>

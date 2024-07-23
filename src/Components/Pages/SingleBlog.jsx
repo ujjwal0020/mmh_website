@@ -53,6 +53,7 @@ const SingleBlog = () => {
   return (
     <>
       <Header />
+      <br />
       {renderBlogComponent()}
       <Footer />
     </>

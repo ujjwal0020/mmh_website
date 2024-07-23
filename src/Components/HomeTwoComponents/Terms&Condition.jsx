@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const TermsAndConditions = () => {
   return (
     <div className="container mx-auto p-4">
-      <Link>
+      <Link to={"/"}>
            
            <img src={logo} alt="logo" className="w-16 h-16 md:w-10 md:h-10 lg:w-8 lg:h-8"/>
           </Link>

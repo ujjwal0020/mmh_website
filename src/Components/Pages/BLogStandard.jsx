@@ -35,6 +35,7 @@ const BLogStandard = () => {
   return (
     <>
       <Header />
+      <br />
       {/* <PageBanner title={"Blog Standard"} pageName={"Blog Standard"} /> */}
       <div className="nav-tab-wrapper tabs  section-padding">
         <div className="container">
