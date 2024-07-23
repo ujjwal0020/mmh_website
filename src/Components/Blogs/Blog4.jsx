@@ -35,7 +35,7 @@ const Blog4 = () => {
                 <div className="flex  flex-wrap  xl:space-x-10 space-x-5 mt-6 mb-6">
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={user3} alt="" />
-                    <span>Fahad Abdullah</span>
+                    <span>Amelia</span>
                   </a>
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={calender} alt="" />

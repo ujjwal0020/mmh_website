@@ -33,7 +33,7 @@ const Blog3 = () => {
                 <div className="flex  flex-wrap  xl:space-x-10 space-x-5 mt-6 mb-6">
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={user3} alt="" />
-                    <span>Faradh Abdhullah</span>
+                    <span>Amelia</span>
                   </a>
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={calender} alt="" />
@@ -48,7 +48,7 @@ const Blog3 = () => {
                     <span>02 Comments</span>
                   </a> */}
                 </div>
-                <h3>
+                <h3 className="text-2xl mb-4">
                 What is WhatsApp Community?
                 </h3>
                 <p className="mt-6">
@@ -72,11 +72,11 @@ const Blog3 = () => {
                   </div>
                 </blockquote> */}
                 <br />
-                <h3>What is the use of community in WhatsApp?</h3>
+                <h3 className="text-2xl mb-4">What is the use of community in WhatsApp?</h3>
                 <p>
                 WhatsApp Community was launched on November 3, 2022, to allow users to bring multiple groups under one centralized space. This feature is a great value add for organisations, clubs, societies, social media influencers and even celebrities looking to share quick updates with their members or followers.
                 </p>
-                <h3 >
+                <h3 className="text-2xl mb-4" >
                 Useful WhatsApp community features
                 </h3>
                 <p>

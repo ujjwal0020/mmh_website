@@ -14,7 +14,7 @@ const PrivacyPolicy = () => {
           </Link>
       <h1 className="text-3xl font-bold text-center py-12">Privacy Policy</h1>
       <p className="text-center mb-8">Last updated: July 21, 2024</p>
-      <div className="container mx-auto px-4">
+      <div >
         <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
         <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
         <h2 className="text-2xl font-bold mt-8">Interpretation and Definitions</h2>
@@ -180,7 +180,7 @@ const PrivacyPolicy = () => {
 <p><strong>Google Places</strong></p>
 <p>Google Places is a service that returns information about places using HTTP requests. It is operated by Google</p>
 <p>Google Places service may collect information from You and from Your Device for security purposes.</p>
-<p>The information gathered by Google Places is held in accordance with the Privacy Policy of Google: <a href="https://www.google.com/intl/en/policies/privacy/" rel="external nofollow noopener" target="blank">https://www.google.com/intl/en/policies/privacy/</a></p>
+<p>The information gathered by Google Places is held in accordance with the Privacy Policy of Google: </p>
 </li>
 </ul>
 <h2 className="text-2xl font-bold mt-8">Children's Privacy</h2>

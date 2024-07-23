@@ -4746,7 +4746,7 @@ ul ul > li.menu-item-has-children:hover > a:after {
 
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
-  color: rgb(255 126 132 / var(--tw-text-opacity));
+  color: rgb(1 95 166 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {

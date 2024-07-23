@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer>
-      <div className="relative z-[1] mx-auto max-w-[1170px] rounded-md bg-[url('../images/all-img/section-bg-3.png')] bg-cover bg-center bg-no-repeat p-20">
+      <div className="relative z-[1] mx-auto max-w-[1170px] rounded-md bg-[url('../images/all-img/section-bg-3.png')] bg-cover bg-center bg-no-repeat px-16 py-20">
         <div className="items-center space-x-4 space-y-5 text-center lg:flex lg:space-y-0 lg:text-left">
           <div className="flex-1">
             <div className="max-w-[590px] text-3xl font-bold text-white md:text-3xl lg:text-[44px] lg:leading-[61px]">
@@ -156,7 +156,7 @@ const Footer = () => {
                       <Link to="/">Address</Link>
                       </li>
                       <li>
-                        <Link to="#" className="lowercase">info@makemoneyonline.com</Link>
+                        <Link to="#" className="lowercase">info@makemoneyfromhome.com</Link>
                       </li>
                       <li>
                         <Link to="#">+91 78945612365</Link>
@@ -167,7 +167,7 @@ const Footer = () => {
         </div>
 
         <div className="container border-t border-[#E9D4D0] py-8 text-center text-base ">
-          &copy; Copyright 2024 | <span className="lowercase"> info@makemoneyonline.com </span>| All Rights Reserved
+          &copy; Copyright 2024 | <span className="lowercase"> info@makemoneyfromhome.com </span>| All Rights Reserved
         </div>
       </div>
     </footer>

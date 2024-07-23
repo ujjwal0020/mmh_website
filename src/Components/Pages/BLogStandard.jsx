@@ -30,6 +30,7 @@ import Header from "../Header";
 // import PageBanner from "../PageBanner";
 import Footer from "../HomeTwoComponents/Footer";
 import { BlogData } from "../../constant/BlogData";
+import { Link } from "react-router-dom";
 
 const BLogStandard = () => {
   return (
@@ -59,12 +60,12 @@ const BLogStandard = () => {
                         Industry
                       </span>
                       <h3 className="mb-4 mt-4">
-                        <a
-                          href={`blogs/${post.to}`}
+                        <Link
+                          to={`/blogs/${post.to}`}
                           className="hover:text-primary transition duration-150"
                         >
                           {post.title}
-                        </a>
+                        </Link>
                       </h3>
                       <p>{post.content}</p>
                       <div className="flex lg:space-x-10 space-x-5 mt-6">
