@@ -105,7 +105,7 @@ const TermsAndConditions = () => {
       <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
       <p className="mb-4">If you have any questions about these Terms and Conditions, You can contact us:</p>
       <ul className="list-disc list-inside mb-4">
-        <li>By email: info@makemoneyfromhome.com</li>
+        <li>By email: support@makemoneyfromhome.app</li>
       </ul>
     </div>
   );

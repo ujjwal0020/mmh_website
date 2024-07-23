@@ -33,7 +33,12 @@ const ContactUs = () => {
                   </div>
                   <div class="flex-1">
                     <h4 class=" lg:text-xl text-lg mb-1">Email-Us :</h4>
-                    <div>info@makemoneyfromhome.com</div>
+                    <a
+                      href="mailto:support@makemoneyfromhome.app"
+                      className="lowercase"
+                    >
+                      support@makemoneyfromhome.app
+                    </a>
                   </div>
                 </li>
                 <li class="flex">
@@ -44,7 +49,7 @@ const ContactUs = () => {
                   </div>
                   <div class="flex-1">
                     <h4 class=" lg:text-xl text-lg mb-1">Call Us:</h4>
-                    <div>+88012 2910 1781, +88019 6128 1689</div>
+                    <a href="9798730030">9798730030</a>
                   </div>
                 </li>
                 <li class="flex">
@@ -55,7 +60,7 @@ const ContactUs = () => {
                   </div>
                   <div class="flex-1">
                     <h4 class="lg:text-xl text-lg mb-1">Office :</h4>
-                    <div>Mountain Green Road 2389, NY, USA</div>
+                    <div>Residency Road, Srinagar - 190001 (Pratap Park)</div>
                   </div>
                 </li>
               </ul>

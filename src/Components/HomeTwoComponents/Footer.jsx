@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import logo from '../../assets/images/logo/MMH_logo_1.png';
+import logo from "../../assets/images/logo/MMH_logo_1.png";
 // import {
 //   fbIcon,
 //   insIcon,
@@ -19,17 +19,19 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer>
-      <div className="relative z-[1] mx-auto max-w-[1170px] rounded-md bg-[url('../images/all-img/section-bg-3.png')] bg-cover bg-center bg-no-repeat px-16 py-20">
+      <div className="relative z-[1] mx-auto max-w-[1170px] rounded-md bg-[url('../images/all-img/section-bg-3.png')] bg-cover bg-center bg-no-repeat p-20">
         <div className="items-center space-x-4 space-y-5 text-center lg:flex lg:space-y-0 lg:text-left">
           <div className="flex-1">
             <div className="max-w-[590px] text-3xl font-bold text-white md:text-3xl lg:text-[44px] lg:leading-[61px]">
-            Transform Your Tele Calling Skills into Carrier Success
+              Transform Your Tele Calling Skills into Carrier Success
             </div>
           </div>
           <div className="flex-none">
-            <button className="btn bg-white font-bold text-black">
-              Join Today
-            </button>
+            <a href="https://leads.makemoneyfromhome.app/login" target="_blank">
+              <button className="btn bg-white font-bold text-black">
+                Join Today
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -42,8 +44,9 @@ const Footer = () => {
                   <img src={logo} alt="" />
                 </a>
                 <p>
-                "We've Built Our Business Of Serving Your Needs On Some Core Principles. 
-                This We Believe Lets Us Serve Your Success And That Ultimately Is Our Goal."
+                  "We've Built Our Business Of Serving Your Needs On Some Core
+                  Principles. This We Believe Lets Us Serve Your Success And
+                  That Ultimately Is Our Goal."
                 </p>
                 {/* <ul className="flex space-x-4 pt-8">
                   <li>
@@ -98,10 +101,9 @@ const Footer = () => {
                     <ul className="list-item space-y-5">
                       <li>
                         <Link to="/hr_faq">HR FAQ's</Link>
-                      
                       </li>
                       <li>
-                      <Link to="/terms">Terms & Condition</Link>
+                        <Link to="/terms">Terms & Condition</Link>
                       </li>
                       <li>
                         <Link to="/privacy">Privacy Policy</Link>
@@ -145,29 +147,33 @@ const Footer = () => {
               </div>
             </div> */}
             <div className="single-footer col-span-12 lg:col-span-6 xl:col-span-3">
-                    <h4 className="mb-8 text-2xl font-bold text-black">
-                      Contact Us
-                    </h4>
-                    <ul className="list-item space-y-5">
-                      <li>
+              <h4 className="mb-8 text-2xl font-bold text-black">Contact Us</h4>
+              <ul className="list-item space-y-5">
+                {/* <li>
                         <Link to="/" className="lowercase">makemoneyfromhome</Link>
-                      </li>
-                      <li>
-                      <Link to="/">Address</Link>
-                      </li>
-                      <li>
-                        <Link to="#" className="lowercase">info@makemoneyfromhome.com</Link>
-                      </li>
-                      <li>
-                        <Link to="#">+91 78945612365</Link>
-                      </li>
-                    </ul>
-                  </div>
+                      </li> */}
+                <li>
+                  <Link to="/">
+                    Residency Road, Srinagar - 190001 (Pratap Park)
+                  </Link>
+                </li>
+                <li>
+                  <a href="mailto:support@makemoneyfromhome.app" className="lowercase">
+                    support@makemoneyfromhome.app
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:9798730030">+91 9798730030</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
         <div className="container border-t border-[#E9D4D0] py-8 text-center text-base ">
-          &copy; Copyright 2024 | <span className="lowercase"> info@makemoneyfromhome.com </span>| All Rights Reserved
+          &copy; Copyright 2024 |{" "}
+          <span className="lowercase"> support@makemoneyfromhome.app </span>|
+          All Rights Reserved
         </div>
       </div>
     </footer>

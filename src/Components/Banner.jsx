@@ -36,9 +36,11 @@ const Banner = () => {
               </div>
             </div>
             <div className="flex-none">
+              <a href = "https://leads.makemoneyfromhome.app/login" target="_blank">
               <button className="btn btn-primary w-full lg:w-auto">
                 Get Started Now
               </button>
+              </a>
             </div>
           </div>
         </div>

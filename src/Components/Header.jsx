@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 // import logo from "../assets/images/logo/logo.svg";
-import logo from '../assets/images/logo/MMH_logo_1.png';
+import logo from "../assets/images/logo/MMH_logo_1.png";
 import MobileMenu from "./MobileMenu";
 
 const Header = () => {
@@ -135,36 +135,32 @@ const Header = () => {
                       </ul>
                     </li> */}
                     <li>
-                          <Link to={"/"}>
-                            Home
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to={"/about"}>
-                            About Us
-                          </Link>
-                        </li>
-                        {/* <li>
+                      <Link to={"/"}>Home</Link>
+                    </li>
+                    <li>
+                      <Link to={"/about"}>About Us</Link>
+                    </li>
+                    {/* <li>
                           <Link to={"/courses"}>
                             Courses
                           </Link>
                         </li> */}
-                        <li>
-                          <Link to={"/blogs"}>
-                            Blog
-                          </Link>
-                        </li>
                     <li>
-                      <Link to={"/contacts"}>
-                        Contacts
-                      </Link>
+                      <Link to={"/blogs"}>Blog</Link>
+                    </li>
+                    <li>
+                      <Link to={"/contacts"}>Contacts</Link>
                     </li>
                   </ul>
                 </div>
                 <div className="flex-none flex space-x-[18px]">
                   <div className=" hidden lg:block">
-                    <a href="#" className="btn btn-primary py-[15px] px-8">
-                      Get A Quote!
+                    <a
+                      href="https://leads.makemoneyfromhome.app/login"
+                      className="btn btn-primary py-[15px] px-8"
+                      target="_blank"
+                    >
+                      Get Started
                     </a>
                   </div>
                   <div className=" block   lg:hidden">

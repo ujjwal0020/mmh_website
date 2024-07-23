@@ -196,7 +196,7 @@ const PrivacyPolicy = () => {
 <h2 className="text-2xl font-bold mt-8">Contact Us</h2>
 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
 <ul>
-<li>By email: info@makemoneyfromhome.com</li>
+<li>By email: support@makemoneyfromhome.app</li>
 </ul>
       </div>
     </div>

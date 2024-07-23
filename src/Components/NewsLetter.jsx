@@ -31,9 +31,11 @@ const NewsLetter = () => {
                 />
               </div>
               <div className="flex-none">
+              <a href = "https://leads.makemoneyfromhome.app/login" target="_blank">
                 <button className="btn bg-white  text-secondary md:w-auto w-full">
                   Get Started Now
                 </button>
+                </a>
               </div>
             </div>
           </div>

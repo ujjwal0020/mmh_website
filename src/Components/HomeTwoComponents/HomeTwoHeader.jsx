@@ -7,7 +7,7 @@ import React, { useEffect, useRef, useState } from "react";
 // import wins from "../../assets/images/social/w-ins.svg";
 // import search from "../../assets/images/svg/search.svg";
 // import logo from "../../assets/images/logo/logo.svg";
-import logo from '../../assets/images/logo/MMH_logo_1.png';
+import logo from "../../assets/images/logo/MMH_logo_1.png";
 import landing from "../../assets/images/landing_page3.webp";
 // import man2 from "../../assets/images/banner/man2.png";
 import { Link } from "react-router-dom";
@@ -188,29 +188,21 @@ const HomeTwoHeader = () => {
                       </ul>
                     </li> */}
                     <li>
-                          <Link to={"/"}>
-                            Home
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to={"/about"}>
-                            About Us
-                          </Link>
-                        </li>
-                        {/* <li>
+                      <Link to={"/"}>Home</Link>
+                    </li>
+                    <li>
+                      <Link to={"/about"}>About Us</Link>
+                    </li>
+                    {/* <li>
                           <Link to={"/courses"}>
                             Courses
                           </Link>
                         </li> */}
-                        <li>
-                          <Link to={"/blogs"}>
-                            Blog
-                          </Link>
-                        </li>
                     <li>
-                      <Link to={"/contacts"}>
-                        Contacts
-                      </Link>
+                      <Link to={"/blogs"}>Blog</Link>
+                    </li>
+                    <li>
+                      <Link to={"/contacts"}>Contacts</Link>
                     </li>
                   </ul>
                   <div className=" lg:block hidden">
@@ -248,10 +240,11 @@ const HomeTwoHeader = () => {
                   </div>
                   <div className=" hidden lg:block">
                     <a
-                      href="#"
+                      href="https://leads.makemoneyfromhome.app/login"
                       className="btn bg-black text-white py-[15px] px-8"
+                      target="_blank"
                     >
-                      Get A Quote!
+                      Get Started
                     </a>
                   </div>
                 </div>
@@ -280,16 +273,23 @@ const HomeTwoHeader = () => {
       <div className="container relative">
         <div className="xl:max-w-[570px] xl:pt-[129px] lg:py-28 md:py-20 py-14  lg:space-y-10 space-y-6 ">
           <div className=" lg:text-[48px] lg:leading-[48px]  md:text-5xl md:leading-[48px] text-black font-bold text-5xl leading-[61px] ">
-            Join Our <span className="text-primary">Dynamic Team</span> and Excel in Tele-calling with MMH 
+            Join Our <span className="text-primary">Dynamic Team</span> and
+            Excel in Tele-calling with MMH
           </div>
           <div className=" plain-text text-gray leading-[30px] border-l-2 border-primary pl-4">
-          We've Built Our Business Of Serving Your Needs On Some Core Principles. This We Believe Lets Us Serve Your Success And That Ultimately Is Our Goal.
+            We've Built Our Business Of Serving Your Needs On Some Core
+            Principles. This We Believe Lets Us Serve Your Success And That
+            Ultimately Is Our Goal.
           </div>
           <div className="md:flex  md:space-x-4 space-y-3 md:space-y-0 pt-5">
-            <a href="#" className="btn btn-primary">
+            <Link to="/contacts" className="btn btn-primary">
               Get A Quote
-            </a>{" "}
-            <a href="#" className="btn btn-black">
+            </Link>{" "}
+            <a
+              href="https://leads.makemoneyfromhome.app/login"
+              target="_blank"
+              className="btn btn-black"
+            >
               Get Started Now
             </a>
           </div>
